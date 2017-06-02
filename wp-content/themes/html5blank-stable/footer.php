@@ -25,6 +25,9 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/classie.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/cbpAnimatedHeader.min.js"></script>
 
 	</body>
 </html>
