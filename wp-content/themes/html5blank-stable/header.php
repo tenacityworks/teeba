@@ -28,14 +28,14 @@
         </script>
 
 	</head>
-	<body <?php //body_class(); ?>>
+	<body class="wrapper"><?php //body_class(); ?>>
 
 		<!-- wrapper -->
 		<div class="wrapper">
 			<div class="cbp-af-header">
 				<div class="cbp-af-inner">
 				<!-- logo -->
-					<a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/img/teeba_logo.png" alt="Logo" class="logo-img"></a>
+					<a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_teeba.png" alt="Logo" class="logo-img"></a>
 					<nav>
 						<a href="#">About Teeba</a>
 						<a href="#">Trade Marks</a>
