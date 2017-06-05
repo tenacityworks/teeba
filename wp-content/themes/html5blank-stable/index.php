@@ -2,7 +2,7 @@
 	<div class="container" style="padding-top: 250px; padding-bottom: 120px;">
 		<h1 class="text-center title">Your Health is the World</h1>
 			<div class="separator"></div>
-				<p style="padding-bottom: 50px;" class="lead text-center">Our mission is providing high quality and nutritious<br> 
+				<p style="padding-bottom: 50px; font-size: 30px;" class="lead text-center">Our mission is providing high quality and nutritious<br> 
 				foods and beverages to consumers.</p>
 		<button type="button" class="btn btn-primary btn-lg">Discover More</button>	
 	</div>
