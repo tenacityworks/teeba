@@ -32,6 +32,10 @@ html {
 body {
 	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
+	background-image: url("/wp-content/themes/html5blank-stable/img/front_/bg_image_v01.jpg");
+    height: 100%; 
+    background-position: top;
+    background-repeat: no-repeat;
 }
 /* clear */
 .clear:before,
@@ -80,18 +84,7 @@ input:focus {
 	margin: 25em auto 0;
 	position:relative;
 }
-body{
 
-	background-image: url("/wp-content/themes/html5blank-stable/img/teeba_back.jpg");
-    height: 100%; 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-}
 /* header */
 .header {
 
@@ -114,6 +107,16 @@ body{
 /* footer */
 .footer {
 
+}
+
+.discover{
+	width: 645px;
+	height: 300px
+}
+
+.visit{
+	width: 335px;
+	height: 300px
 }
 
 /*------------------------------------*\

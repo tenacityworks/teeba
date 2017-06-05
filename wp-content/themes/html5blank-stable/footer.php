@@ -1,17 +1,22 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
-
-			</footer>
+    <!-- footer -->
+    <footer style="background-color: #003366; width: 100%;">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4" style="color: #FFFFFF; text-align: left;">
+                        <h2>Contact Us</h2>
+                        <p>Amman - Um Al-Balsatein - Airport Road
+                            <br>P.O Box 35076 Amman 11180 Jordan<br>
+                            Tel.: +962 6 4290868<br>
+                            Fax: +962 6 4290862</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 			<!-- /footer -->
 
-		</div>
 		<!-- /wrapper -->
 
 		<?php wp_footer(); ?>

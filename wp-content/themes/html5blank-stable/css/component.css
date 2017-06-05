@@ -5,7 +5,7 @@
 	width: 100%;
 	background: #003366;
 	z-index: 10000;
-	height: 230px;
+	height: 155px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -14,7 +14,7 @@
 
 .cbp-af-header .cbp-af-inner {
 	width: 90%;
-	max-width: 69em;
+	max-width: 74em;
 	margin: 0 auto;
 	padding: 0 1.875em;
 }
@@ -28,11 +28,11 @@
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
 .cbp-af-header nav a{
-	line-height: 230px;
+	line-height: 160px;
 }
 
 .cbp-af-header a {
-	line-height: 160px;
+	line-height: 122px;
 }
 
 .cbp-af-header.cbp-af-header-shrink a {
@@ -53,7 +53,7 @@
 }
 
 .cbp-af-header nav a {
-	color: #aaa;
+	color: #fff;
 	font-weight: 700;
 	margin: 0 0 0 20px;
 	font-size: 1.4em;
