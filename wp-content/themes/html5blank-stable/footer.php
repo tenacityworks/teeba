@@ -1,13 +1,5 @@
-<!-- footer start -->
-		<!-- ================ -->
+
 		<footer id="footer" style="margin-top: 70px;">
-
-			<!-- .footer start -->
-			<!-- ================ -->
-			<!-- .footer end -->
-
-			<!-- .subfooter start -->
-			<!-- ================ -->
 			<div class="subfooter">
 				<div class="container">
 					<div class="row">
@@ -21,15 +13,10 @@
 					</div>
 				</div>
 			</div>
-			<!-- .subfooter end -->
 
 		</footer>
 		<?php wp_footer(); ?>
-		<!-- footer end -->
 
-		<!-- JavaScript files placed at the end of the document so the pages load faster
-		================================================== -->
-		<!-- Jquery and Bootstap core js files -->
 
 	</body>
 </html>

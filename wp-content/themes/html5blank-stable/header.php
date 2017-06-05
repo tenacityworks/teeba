@@ -17,53 +17,23 @@
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-
-		<!-- Bootstrap core CSS -->
 	</head>
 
 	<body class="no-trans">
-		<!-- scrollToTop -->
-		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-
-		<!-- header start -->
-		<!-- ================ --> 
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-
-						<!-- header-left start -->
-						<!-- ================ -->
 						<div class="header-left clearfix">
-
-							<!-- logo -->
 							<div class="logo smooth-scroll">
 								<a href="#banner"><img id="logo" src="/wp-content/themes/html5blank-stable/img/logo_teeba.png" alt="Worthy"></a>
 							</div>
-
-							<!-- name-and-slogan -->
-					<!-- 		<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">Worthy</a></div>
-								<div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div>
-							</div> -->
-
 						</div>
-						<!-- header-left end -->
-
 					</div>
 					<div class="col-md-8">
-
-						<!-- header-right start -->
-						<!-- ================ -->
 						<div class="header-right clearfix">
-
-							<!-- main-navigation start -->
-							<!-- ================ -->
 							<div class="main-navigation animated">
-
-								<!-- navbar start -->
-								<!-- ================ -->
 								<nav class="navbar navbar-default" role="navigation">
 									<div class="container-fluid">
 
@@ -90,14 +60,8 @@
 
 									</div>
 								</nav>
-								<!-- navbar end -->
-
 							</div>
-							<!-- main-navigation end -->
-
 						</div>
-						<!-- header-right end -->
-
 					</div>
 				</div>
 			</div>
