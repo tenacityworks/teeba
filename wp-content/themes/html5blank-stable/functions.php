@@ -451,10 +451,12 @@ function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 short
 
 function theme_styles() {
 
-    wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/vendor/bootstrap/css/bootstrap.min.css' );
-    wp_enqueue_style( 'fonts_css', get_template_directory_uri() . '/vendor/font-awesome/css/font-awesome.min.css' );
-    wp_enqueue_style( 'default_css', get_template_directory_uri() . '/css/default.css' );
-    wp_enqueue_style( 'component_css', get_template_directory_uri() . '/css/component.css' );
+    wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/bootstrap/css/bootstrap.css' );
+    wp_enqueue_style( 'fonts_css', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css' );
+    wp_enqueue_style( 'animations_css', get_template_directory_uri() . '/css/animations.css' );
+    wp_enqueue_style( 'styles_css', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'custom_css', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'component_css', get_template_directory_uri() . '/css/custom.css' );
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_styles');
@@ -465,9 +467,11 @@ function theme_js() {
 
     wp_enqueue_script( 'jquery_js', get_template_directory_uri() . '/vendor/jquery/jquery.min.js');
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.min.js');
-    wp_enqueue_script( 'jquery_js', get_template_directory_uri() . '/vendor/jquery/jquery.min.js');
-    wp_enqueue_script( 'classie_js', get_template_directory_uri() . '/js/classie.js');
-    wp_enqueue_script( 'classie_js', get_template_directory_uri() . '/js/cbpAnimatedHeader.min.js');
+    wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/plugins/modernizr.js');
+    wp_enqueue_script( 'backstretch_js', get_template_directory_uri() . '/plugins/jquery.backstretch.min.js');
+    wp_enqueue_script( 'appear_js', get_template_directory_uri() . '/plugins/jquery.appear.js');
+    wp_enqueue_script( 'template_js', get_template_directory_uri() . '/js/template.js');
+    wp_enqueue_script( 'custom_js', get_template_directory_uri() . '/js/custom.js');
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_js');

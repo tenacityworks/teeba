@@ -32,10 +32,10 @@ html {
 body {
 	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
-	background-image: url("/wp-content/themes/html5blank-stable/img/front_/bg_image_v01.jpg");
     height: 100%; 
     background-position: top;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 /* clear */
 .clear:before,
