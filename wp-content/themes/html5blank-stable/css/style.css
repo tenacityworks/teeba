@@ -8,8 +8,27 @@ File Description:Main CSS file of the template */
 
 /* Typography
 ----------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'barmenoroman';
+    src: url('/wp-content/themes/html5blank-stable/fonts/barmeno-roman-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/html5blank-stable/fonts/barmeno-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'boutrosasmaregular';
+    src: url('/wp-content/themes/html5blank-stable/fonts/boutrosasma-regular-webfont.woff2') format('woff2'),
+         url('/wp-content/themes/html5blank-stable/fonts/boutrosasma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'barmenoroman';
 	background-image: url("/wp-content/themes/html5blank-stable/img/front_/bg_image_v01.jpg");
 	-webkit-background-size: cover;
     -moz-background-size: cover;
