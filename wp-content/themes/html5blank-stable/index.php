@@ -1,14 +1,18 @@
 <?php get_header(); ?>
 		<!-- section start -->
 		<!-- ================ -->
+		<div class="spacetop"></div>
 				<div class="row">
 					<div class="col-md-12">
 						<h1 id="about" class="title text-center">Your Health is the World</h1>
-						<p style="font-family: 'barmenoroman';"  class="lead text-center">Our mission is providing high quality and <br>nutritious
+						<p style="font-size: 30px; font-family: 'barmenoroman';"  class="lead text-center">Our mission is providing high quality and nutritious<br>
 foods and beverages to consumers.</p>
-<button style="font-family: 'barmenoroman';" type="button" class="btn btn-primary btn-lg">Discover More</button>
+						<div class="space"></div>
+						<button style="font-family: 'barmenoroman';" type="button" class="btn btn-primary btn-lg">Discover More</button>
+						<div class="spacebottombutton"></div>
 					</div>
-				</div><div class="space"></div>
+				</div>
+					
 						<div class="row">
 							<div class="col-md-7 trademarks">
 							<h3 style="width: 650px; right: 0; position: absolute; margin: auto;">Discover Our Trademarks</h3>
@@ -26,8 +30,10 @@ foods and beverages to consumers.</p>
 										<img style="margin-top: 70px; position: relative;" src="/wp-content/themes/html5blank-stable/img/discoverus_image.png">
 									</div>
 								</div>
+
 								<!--slider -->
 								<div class='row'>
+								<hr style="margin-top: 0px; margin-bottom: 0px; border-top: 2px solid #eee;">
 									<div class='col-md-12 slider_fp'>
 									  <div class="carousel slide media-carousel" id="recommendations">
 									    <div class="carousel-inner">

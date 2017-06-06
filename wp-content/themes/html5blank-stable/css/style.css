@@ -311,6 +311,12 @@ blockquote {
 .space {
 	padding: 20px 0;
 }
+.spacetop {
+	padding: 112px 0;
+}
+.spacebottombutton {
+	padding: 45px 0;
+}
 .pr-10 {
 	padding-right: 10px;
 }
@@ -860,6 +866,7 @@ textarea {
   height: 110px;
   width: 650px;
   margin-right: 5px;
+  margin-top: -5px;
 }
 
 .visitus {

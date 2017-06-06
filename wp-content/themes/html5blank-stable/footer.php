@@ -1,6 +1,6 @@
 		<!-- footer start -->
 		<!-- ================ -->
-		</div>
+		</div><div class="space"></div>
 		<footer id="footer">
 			<div class="subfooter">
 				<div class="container">
