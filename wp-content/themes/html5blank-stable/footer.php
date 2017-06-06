@@ -1,9 +1,11 @@
-
-		<footer id="footer" style="margin-top: 70px;">
+		<!-- footer start -->
+		<!-- ================ -->
+		</div>
+		<footer id="footer">
 			<div class="subfooter">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-md-4">
 							<div>
 								<h4 style="color: #fff;">Contact Us</h4>
 								<p style="font-size: 17px; color: #fff;">Amman - Um Al Basatein - Airport Road<br> 
@@ -15,11 +17,10 @@
 					</div>
 				</div>
 			</div>
-
 		</footer>
+		<!-- footer end -->
 		<?php wp_footer(); ?>
-
-
+	
 	</body>
 </html>
 

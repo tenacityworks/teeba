@@ -468,6 +468,7 @@ function theme_js() {
     wp_enqueue_script( 'jquery_js', get_template_directory_uri() . '/vendor/jquery/jquery.min.js');
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.min.js');
     wp_enqueue_script( 'modernizr_js', get_template_directory_uri() . '/plugins/modernizr.js');
+    wp_enqueue_script( 'isotope_js', get_template_directory_uri() . '/plugins/isotope/isotope.pkgd.min.js');
     wp_enqueue_script( 'backstretch_js', get_template_directory_uri() . '/plugins/jquery.backstretch.min.js');
     wp_enqueue_script( 'appear_js', get_template_directory_uri() . '/plugins/jquery.appear.js');
     wp_enqueue_script( 'template_js', get_template_directory_uri() . '/js/template.js');

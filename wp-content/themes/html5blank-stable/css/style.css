@@ -289,7 +289,6 @@ blockquote {
 /* Misc
 ----------------------------------------------------------------------------- */
 .object-non-visible {
-	opacity: 0;
 	filter: alpha(opacity=0);
 }
 .object-visible,
@@ -891,4 +890,12 @@ textarea {
     height: 80px;
     padding-left: 8px;
     padding-top: 13px;
+}
+
+.teeba_container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
 }

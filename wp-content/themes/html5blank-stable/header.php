@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html <?php language_attributes(); ?> class="no-js">
+<html lang="en">
 <!--<![endif]-->
 	<head>
-		<meta charset="<?php bloginfo('charset'); ?>">
+		<meta charset="utf-8">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
+		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="htmlcoder.me">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,20 +23,43 @@
 	</head>
 
 	<body class="no-trans">
+		<div class="container">
+		<!-- scrollToTop -->
+		<!-- ================ -->
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ --> 
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
 						<div class="header-left clearfix">
+
+							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="/wp-content/themes/html5blank-stable/img/logo_teeba.png" alt="Worthy"></a>
+								<a href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/logo_teeba.png" alt="Teeba"></a>
 							</div>
+
 						</div>
+						<!-- header-left end -->
+
 					</div>
 					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
 						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
 							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
 								<nav class="navbar navbar-default" role="navigation">
 									<div class="container-fluid">
 
@@ -52,17 +77,23 @@
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
 												<li class="active"><a href="#banner">About Teeba</a></li>
-												<li><a href="#about">Trade Marks</a></li>
-												<li><a href="#services">Careers</a></li>
-												<li><a href="#portfolio">FAQs</a></li>
-												<li><a href="#clients">Contact Us</a></li>
+												<li><a href="#">Trade Marks</a></li>
+												<li><a href="#">Careers</a></li>
+												<li><a href="#">FAQs</a></li>
+												<li><a href="#">Contact Us</a></li>
 											</ul>
 										</div>
 
 									</div>
 								</nav>
+								<!-- navbar end -->
+
 							</div>
+							<!-- main-navigation end -->
+
 						</div>
+						<!-- header-right end -->
+
 					</div>
 				</div>
 			</div>
