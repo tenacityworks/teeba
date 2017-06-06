@@ -779,3 +779,87 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+	width: 0;
+	position: absolute;
+
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  height: 120px;
+  width : 60px;
+  margin-top: 30px;
+  margin-right: -15px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 100%;
+  height: 70px;
+}
+/* End carousel */
+.trademarks {
+  background-color: #F8F6FF;
+  height: 320px;
+  width: 650px;
+  margin-right: 5px;
+}
+.slider_fp {
+  height: 110px;
+  width: 650px;
+  margin-right: 5px;
+}
+.visitus {
+  background-color: #F8F6FF;
+  height: 320px;
+  width: 320px;
+  margin-left: 5px;
+}
+
+.leftSlider{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 31px;
+}
+
+.rightSlider{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 31px;
+}
