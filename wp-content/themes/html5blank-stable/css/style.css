@@ -28,7 +28,7 @@ File Description:Main CSS file of the template */
 }
 
 body {
-	font-family: 'barmenoroman';
+	font-family: 'Roboto';
 	background-image: url("/wp-content/themes/html5blank-stable/img/front_/bg_image_v01.jpg");
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -55,6 +55,8 @@ h4,
 h5,
 h6 {
 	color: #00529C;
+	font-family: 'barmenoroman';
+
 }
 h3 {
 	background-color: #002D55;
@@ -536,6 +538,7 @@ textarea {
 	padding: 10px 20px;
 	font-size: 18px;
 	font-weight: 300;
+	font-family: 'barmenoroman';
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
@@ -838,11 +841,28 @@ textarea {
   width: 650px;
   margin-right: 5px;
 }
+._socialleft {
+  background-color: #D3D3D3;
+  height: 365px;
+  width: 485px;
+  margin-right: 5px;
+  margin-top: 10px;
+  position: relative;
+}
+._socialright {
+  background-color: #D3D3D3;
+  height: 365px;
+  width: 485px;
+  margin-left: 5px;
+  margin-top: 10px;
+  position: relative;
+}
 .slider_fp {
   height: 110px;
   width: 650px;
   margin-right: 5px;
 }
+
 .visitus {
   background-color: #F8F6FF;
   height: 320px;
@@ -862,4 +882,13 @@ textarea {
     bottom: 0;
     right: 0;
     margin-top: 31px;
+}
+.overlaysocial{
+	position: absolute;
+    bottom: 0;
+    background-color: darkgrey;
+    left: 0;
+    height: 80px;
+    padding-left: 8px;
+    padding-top: 13px;
 }
