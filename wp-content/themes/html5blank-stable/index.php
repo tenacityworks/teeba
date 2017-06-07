@@ -33,7 +33,7 @@ foods and beverages to consumers.</p>
 
 								<!--slider -->
 								<div class='row'>
-								<hr style="margin-top: 0px; margin-bottom: 0px; border-top: 2px solid #eee;">
+								<hr class="hrlook">
 									<div class='col-md-12 slider_fp'>
 									  <div class="carousel slide media-carousel" id="recommendations">
 									    <div class="carousel-inner">
@@ -70,8 +70,8 @@ foods and beverages to consumers.</p>
 									        </div>
 									      </div>
 									    </div>
-									    <a data-slide="prev" href="#recommendations" class="left"><span class="glyphicon glyphicon-chevron-left leftSlider"></span></a>
-									    <a data-slide="next" href="#recommendations" class="right"><span class="glyphicon glyphicon-chevron-right rightSlider"></span></a>
+									    <a data-slide="prev" href="#recommendations" class="aleft"><i class="fa fa-angle-left faSize" aria-hidden="true"></i></a>
+									    <a data-slide="next" href="#recommendations" class="aright"><i class="fa fa-angle-right faSize" aria-hidden="true"></i></a>
 									  </div>                          
 									</div>
 								</div>

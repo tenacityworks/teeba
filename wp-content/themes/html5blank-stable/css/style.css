@@ -101,8 +101,30 @@ h4 span {
 .text-colored {
 	color: #55acee;
 }
+.aleft{
+
+	left: 0;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -65px;
+}
+.aright{
+	right: 0;
+    position: absolute;
+    margin-right: 5px;
+    margin-top: -65px;
+}
+.hrlook{
+	margin-top: 0px; 
+	margin-bottom: 0px; 
+	border-top: 1px solid #DADADA;
+}
+.faSize{
+
+	font-size: 60px;
+}
 a {
-	color: #55acee;
+	color: #00529C;
 }
 a:hover {
 	color: #339BEB;
