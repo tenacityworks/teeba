@@ -110,6 +110,19 @@ h3 span,
 h4 span {
 	color: #339BEB;
 }
+div.col-md-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > h4, p {
+	color: black;
+}
+div.col-md-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > p {
+	font-size: 17px; 
+	color: black;
+}
+div.col-md-6._socialleft > div > p{
+	color: white;
+}
+div.col-md-6._socialright > div > p{
+	color: white;
+}
 .text-colored {
 	color: #55acee;
 }
@@ -143,6 +156,13 @@ h4 span {
     margin-top: 7px;
     margin-right: 6px;
 }
+.headerhome{
+	font-size: 30px; 
+	font-family: 'barmenoroman';
+}
+.fontbarmeno{
+	font-family: 'barmenoroman';
+}
 a {
 	color: #00529C;
 }
@@ -159,6 +179,10 @@ a:active {
 img {
 	display: block;
 	width: 100%;
+}
+.imgdiscover{
+	margin-top: 70px; 
+	position: relative;
 }
 .list-unstyled li {
 	padding: 5px 0;
@@ -197,6 +221,15 @@ blockquote {
 	font-weight: 500;	
 	line-height: 43px;	
 	text-align: center;
+}
+.h3discover{
+	width: 650px; 
+	right: 0; position: 
+	absolute; 
+	margin: auto;
+}
+.tropicana{
+	padding-top: 70px;
 }
 
 /* Layout
