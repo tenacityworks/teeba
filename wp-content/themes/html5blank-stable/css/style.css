@@ -80,18 +80,7 @@ h3 {
 	padding-left: 8px;
     padding-top: 8px;
 }
-.h3social{
-	width: 485px; 
-	right: 0; 
-	position: absolute; 
-	margin: auto;
-}
-.h3visit{
-	width: 320px; 
-	right: 0; 
-	position: absolute; 
-	margin: auto;
-}
+
 h4 {
 	font-size: 18px;
 	font-weight: 700;
@@ -110,6 +99,10 @@ h3 span,
 h4 span {
 	color: #339BEB;
 }
+.pfooter{
+	font-size: 17px; 
+	color: #fff;
+}
 div.col-md-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > h4, p {
 	color: black;
 }
@@ -117,10 +110,16 @@ div.col-md-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > p {
 	font-size: 17px; 
 	color: black;
 }
-div.col-md-6._socialleft > div > p{
+body > div.container > div:nth-child(7) > div.col-sm-6._socialright > div > p{
 	color: white;
 }
-div.col-md-6._socialright > div > p{
+body > div.container > div:nth-child(7) > div.col-sm-6._socialleft > div > p{
+	color: white;
+}
+body > div.container > div:nth-child(6) > div.col-sm-6._socialright > div > p{
+	color: white;
+}
+body > div.container > div:nth-child(6) > div.col-sm-6._socialleft > div > p{
 	color: white;
 }
 .text-colored {
@@ -144,18 +143,7 @@ div.col-md-6._socialright > div > p{
 	margin-bottom: 0px; 
 	border-top: 1px solid #DADADA;
 }
-.faSize{
 
-	font-size: 60px;
-}
-.fasocialpos{
-	position: absolute;
-    font-size: 30px;
-    color: white;
-    right: 0;
-    margin-top: 7px;
-    margin-right: 6px;
-}
 .headerhome{
 	font-size: 30px; 
 	font-family: 'barmenoroman';
@@ -179,10 +167,6 @@ a:active {
 img {
 	display: block;
 	width: 100%;
-}
-.imgdiscover{
-	margin-top: 70px; 
-	position: relative;
 }
 .list-unstyled li {
 	padding: 5px 0;
@@ -221,15 +205,6 @@ blockquote {
 	font-weight: 500;	
 	line-height: 43px;	
 	text-align: center;
-}
-.h3discover{
-	width: 650px; 
-	right: 0; position: 
-	absolute; 
-	margin: auto;
-}
-.tropicana{
-	padding-top: 70px;
 }
 
 /* Layout
@@ -638,6 +613,154 @@ textarea {
 		-ms-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}
+	/* Added */
+	.imgdiscover{
+		margin-top: 70px; 
+		position: relative;
+	}
+	.h3discover{
+		width: 650px; 
+		right: 0; position: 
+		absolute; 
+		margin: auto;
+	}
+	.tropicana{
+		padding-top: 70px;
+	}
+	.faSize{
+	font-size: 60px;
+	}
+	.fasocialpos{
+		position: absolute;
+	    font-size: 30px;
+	    color: white;
+	    right: 0;
+	    margin-top: 7px;
+	    margin-right: 6px;
+	}
+	.h3social{
+		width: 485px; 
+		right: 0; 
+		position: absolute; 
+		margin: auto;
+	}
+
+	.h3visit{
+		width: 320px; 
+		right: 0; 
+		position: absolute; 
+		margin: auto;
+	}
+
+	/* carousel */
+	.media-carousel 
+	{
+	  margin-bottom: 0;
+	  padding: 0 40px 30px 40px;
+	  margin-top: 30px;
+	  width: 100%;
+	}
+
+	/* Previous button  */
+	.media-carousel .carousel-control.left 
+	{
+		width: 0;
+		position: absolute;
+
+	}
+	/* Next button  */
+	.media-carousel .carousel-control.right 
+	{
+	  right: -12px !important;
+	  background-image: none;
+	  background: none repeat scroll 0 0 #222222;
+	  border: 1px solid #FFFFFF;
+	  border-radius: 20px;
+	  height: 120px;
+	  width : 60px;
+	  margin-top: 30px;
+	  margin-right: -15px;
+	}
+	/* Changes the position of the indicators */
+	.media-carousel .carousel-indicators 
+	{
+	  right: 50%;
+	  top: auto;
+	  bottom: 0px;
+	  margin-right: -19px;
+	}
+	/* Changes the colour of the indicators */
+	.media-carousel .carousel-indicators li 
+	{
+	  background: #c0c0c0;
+	}
+	.media-carousel .carousel-indicators .active 
+	{
+	  background: #333333;
+	}
+	.media-carousel img
+	{
+	  width: 100%;
+	  height: 70px;
+	}
+	/* End carousel */
+	.trademarks {
+	  background-color: #F8F6FF;
+	  height: 320px;
+	  width: 650px;
+	  margin-right: 5px;
+	}
+	._socialleft {
+	  background-color: #D3D3D3;
+	  min-height: 365px;
+	  max-width: 485px;
+	  margin-right: 5px;
+	  margin-top: 10px;
+	}
+	._socialright {
+	  background-color: #D3D3D3;
+	  min-height: 365px;
+	  max-width: 485px;
+	  margin-left: 5px;
+	  margin-top: 10px;
+	}
+	.slider_fp {
+	  height: 110px;
+	  width: 650px;
+	  margin-right: 5px;
+	  margin-top: -5px;
+	}
+
+	.visitus {
+	  background-color: #F8F6FF;
+	  height: 320px;
+	  width: 320px;
+	  margin-left: 5px;
+	}
+
+	.leftSlider{
+		position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    margin-top: 31px;
+	}
+
+	.rightSlider{
+		position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    margin-top: 31px;
+	}
+	.overlaysocial{
+		position: absolute;
+	    bottom: 0;
+	    background-color: darkgrey;
+	    left: 0;
+	    height: 80px;
+	    padding-left: 8px;
+	    padding-top: 13px;
+	}
+	/* Added end */
 }
 @media (min-width:768px) and (max-width:991px) {
 	.main-navigation .container-fluid {
@@ -647,11 +770,164 @@ textarea {
 	.navbar-nav {
 		float: left !important;
 	}
+
+	
 }
 @media (max-width:767px) {
 	.header.navbar-fixed-top {
 		position: absolute;
 	}
+
+	/* Added */
+	.imgdiscover {
+    	margin-top: 5px;
+    	position: relative;
+    	margin-bottom: 13px;
+	}
+	.h3discover{
+		width: 343px; 
+		right: 0; position: 
+		absolute; 
+		margin: auto;
+	}
+	.tropicana{
+		padding-top: 70px;
+	}
+	.fasocialpos{
+		position: absolute;
+	    font-size: 30px;
+	    color: white;
+	    right: 0;
+	    margin-top: -36px;
+	    margin-right: 6px;
+	}
+	.h3social{
+		width: 343px;
+    	left: 0;
+    	margin-left: -15px;
+    	position: relative;
+	}
+	
+	.h3visit{
+		width: 320px; 
+		right: 0; 
+		position: absolute; 
+		margin: auto;
+	}
+
+	/* carousel */
+	.media-carousel 
+	{
+	  margin-bottom: 0;
+	  padding: 0 40px 30px 40px;
+	  margin-top: 30px;
+	  width: 100%;
+	}
+
+	/* Previous button  */
+	.media-carousel .carousel-control.left 
+	{
+		width: 0;
+		position: absolute;
+
+	}
+	/* Next button  */
+	.media-carousel .carousel-control.right 
+	{
+	  right: -12px !important;
+	  background-image: none;
+	  background: none repeat scroll 0 0 #222222;
+	  border: 1px solid #FFFFFF;
+	  border-radius: 20px;
+	  height: 120px;
+	  width : 60px;
+	  margin-top: 30px;
+	  margin-right: -15px;
+	}
+	/* Changes the position of the indicators */
+	.media-carousel .carousel-indicators 
+	{
+	  right: 50%;
+	  top: auto;
+	  bottom: 0px;
+	  margin-right: -19px;
+	}
+	/* Changes the colour of the indicators */
+	.media-carousel .carousel-indicators li 
+	{
+	  background: #c0c0c0;
+	}
+	.media-carousel .carousel-indicators .active 
+	{
+	  background: #333333;
+	}
+	.media-carousel img
+	{
+	  width: 100%;
+	  height: 70px;
+	}
+	/* End carousel */
+	.trademarks {
+	  background-color: #F8F6FF;
+	  height: 300px;
+	  width: 343px;
+	  margin-left: 5px;
+	  position: relative;
+	}
+	._socialleft {
+	  background-color: #D3D3D3;
+	  min-height: 300px;
+	  max-width: 343px;
+	  margin-left: 5px;
+	  margin-top: 10px;
+	  position: relative;
+	}
+	._socialright {
+	  background-color: #D3D3D3;
+	  min-height: 300px;
+	  max-width: 343px;
+	  margin-left: 5px;
+	  margin-top: 10px;
+	  position: relative;
+	}
+	.slider_fp {
+	  height: 110px;
+	  width: 650px;
+	  margin-right: 5px;
+	  margin-top: -5px;
+	}
+
+	.visitus {
+	  background-color: #F8F6FF;
+	  height: 320px;
+	  width: 320px;
+	  margin-left: 5px;
+	  position: relative;
+	}
+
+	.leftSlider{
+		position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    margin-top: 31px;
+	}
+
+	.rightSlider{
+		position: absolute;
+	    bottom: 0;
+	    right: 0;
+	    margin-top: 31px;
+	}
+	.overlaysocial{
+		position: absolute;
+	    bottom: 0;
+	    background-color: darkgrey;
+	    left: 0;
+	    height: 80px;
+	    padding-left: 8px;
+	    padding-top: 13px;
+	}
+	/* Added end */
 }
 
 /* Fixed Header
@@ -804,6 +1080,13 @@ textarea {
 		width: 100%;
 		display: block;
 	}
+	.trademakrs{
+		background-color: #F8F6FF;
+    	margin-right: 5px;
+    	position: relative;
+    	height: 190px;
+    	width: 403px
+	}
 }
 
 /* Images Overlay
@@ -861,123 +1144,4 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
-
-/* carousel */
-.media-carousel 
-{
-  margin-bottom: 0;
-  padding: 0 40px 30px 40px;
-  margin-top: 30px;
-  width: 100%;
-}
-
-/* Previous button  */
-.media-carousel .carousel-control.left 
-{
-	width: 0;
-	position: absolute;
-
-}
-/* Next button  */
-.media-carousel .carousel-control.right 
-{
-  right: -12px !important;
-  background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 1px solid #FFFFFF;
-  border-radius: 20px;
-  height: 120px;
-  width : 60px;
-  margin-top: 30px;
-  margin-right: -15px;
-}
-/* Changes the position of the indicators */
-.media-carousel .carousel-indicators 
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li 
-{
-  background: #c0c0c0;
-}
-.media-carousel .carousel-indicators .active 
-{
-  background: #333333;
-}
-.media-carousel img
-{
-  width: 100%;
-  height: 70px;
-}
-/* End carousel */
-.trademarks {
-  background-color: #F8F6FF;
-  height: 320px;
-  width: 650px;
-  margin-right: 5px;
-}
-._socialleft {
-  background-color: #D3D3D3;
-  height: 365px;
-  width: 485px;
-  margin-right: 5px;
-  margin-top: 10px;
-  position: relative;
-}
-._socialright {
-  background-color: #D3D3D3;
-  height: 365px;
-  width: 485px;
-  margin-left: 5px;
-  margin-top: 10px;
-  position: relative;
-}
-.slider_fp {
-  height: 110px;
-  width: 650px;
-  margin-right: 5px;
-  margin-top: -5px;
-}
-
-.visitus {
-  background-color: #F8F6FF;
-  height: 320px;
-  width: 320px;
-  margin-left: 5px;
-}
-
-.leftSlider{
-	position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-top: 31px;
-}
-
-.rightSlider{
-	position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-top: 31px;
-}
-.overlaysocial{
-	position: absolute;
-    bottom: 0;
-    background-color: darkgrey;
-    left: 0;
-    height: 80px;
-    padding-left: 8px;
-    padding-top: 13px;
-}
-
-.teeba_container{
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 980px;
 }

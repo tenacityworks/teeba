@@ -6,9 +6,6 @@
 	<head>
 		<meta charset="utf-8">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="htmlcoder.me">
-
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<?php wp_head(); ?>
@@ -41,7 +38,7 @@
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/logo_teeba.png" alt="Teeba"></a>
+								<a href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/teeba_logo.png" alt="Teeba"></a>
 							</div>
 
 						</div>
