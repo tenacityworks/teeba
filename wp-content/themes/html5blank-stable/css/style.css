@@ -80,6 +80,18 @@ h3 {
 	padding-left: 8px;
     padding-top: 8px;
 }
+.h3social{
+	width: 485px; 
+	right: 0; 
+	position: absolute; 
+	margin: auto;
+}
+.h3visit{
+	width: 320px; 
+	right: 0; 
+	position: absolute; 
+	margin: auto;
+}
 h4 {
 	font-size: 18px;
 	font-weight: 700;
@@ -122,6 +134,14 @@ h4 span {
 .faSize{
 
 	font-size: 60px;
+}
+.fasocialpos{
+	position: absolute;
+    font-size: 30px;
+    color: white;
+    right: 0;
+    margin-top: 7px;
+    margin-right: 6px;
 }
 a {
 	color: #00529C;

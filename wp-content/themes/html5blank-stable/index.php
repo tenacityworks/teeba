@@ -81,20 +81,21 @@ foods and beverages to consumers.</p>
 
 					<!-- Visit Us -->
 							<div class="col-md-5 visitus">
-								<h3 style="width: 320px; right: 0; position: absolute; margin: auto;">Visit Us</h3>
+								<h3 class="h3visit">Visit Us</h3>
 							</div>
 					<!-- /Visit Us -->
 						</div>
 					<!--Teeba Social -->
 						<div class="row">
 							<div class="col-md-6 _socialleft">
-							<h3 style="width: 485px; right: 0; position: absolute; margin: auto;">Teeba on Facebook</h3>
+							<h3 class="h3social">Teeba on Facebook</h3><i class="fa fa-facebook-square fasocialpos"></i>
 								<div class="overlaysocial">
 									<p style="color: white;">Lorem Ipsum adalah text contoh digunakan didalam industri pencetakan dan typesetting.</p>
 								</div>	
 							</div>
 							<div class="col-md-6 _socialright">
-							<h3 style="width: 485px; right: 0; position: absolute; margin: auto;">Teeba on Instagram</h3>
+							<h3 class="h3social">Teeba on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
+
 								<div class="overlaysocial">
 									<p style="color: white;">sebuah galeri cetak dan merobakanya menjadi satu buku spesimen. Ia telah bertahan bukan hanya selama lima kurun, tetapi</p>
 								</div>
@@ -103,13 +104,13 @@ foods and beverages to consumers.</p>
 					<!-- /Teeba Social -->
 						<div class="row">
 							<div class="col-md-6 _socialleft">
-							<h3 style="width: 485px; right: 0; position: absolute; margin: auto;">Almarai on Facebook</h3>
+							<h3 class="h3social">Almarai on Facebook</h3><i class="fa fa-facebook-square fasocialpos"></i>
 								<div class="overlaysocial">
 									<p style="color: white;">telah melonjak ke era typesetting elektronik, dengan tiada perubahan ketara. Ia telah dipopularkan pada tahun 1960an dengan penerbitan </p>
 								</div>
 							</div>
 							<div class="col-md-6 _socialright">
-							<h3 style="width: 485px; right: 0; position: absolute; margin: auto;">Almarai on Instagram</h3>
+							<h3 class="h3social">Almarai on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
 								<div class="overlaysocial">
 									<p style="color: white;">Letraset yang mebawa kangungan Lorem Ipsum, dan lebih terkini dengan sofwer pencetakan desktop seperti</p>
 								</div>
