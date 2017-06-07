@@ -409,27 +409,6 @@ blockquote {
 	line-height: 43px;
 	text-align: center;
 }
-.btn {
-	border-radius: 100px;
-	padding: 14px 15px;
-	font-weight: 500;
-	line-height: 43px;
-	font-size: 36px;
-	line-height: 1.42857143;
-	min-width: 160px;
-	text-align: center;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	margin: -20px -143px; 
-	width: 320px;
-    position:relative;
-    top:50%; 
-    left:50%;
-    background-color: #3F99EB;
-}
 .btn-default {
 	color: #55acee;
 	border: 1px solid #cccccc;
@@ -614,6 +593,27 @@ textarea {
 		transition: all 0.3s ease-in-out;
 	}
 	/* Added */
+	.btn {
+	    border-radius: 100px;
+	    padding: 14px 15px;
+	    font-weight: 500;
+	    line-height: 43px;
+	    font-size: 36px;
+	    line-height: 1.42857143;
+	    min-width: 160px;
+	    text-align: center;
+	    -webkit-transition: all 0.2s ease-in-out;
+	    -moz-transition: all 0.2s ease-in-out;
+	    -ms-transition: all 0.2s ease-in-out;
+	    -o-transition: all 0.2s ease-in-out;
+	    transition: all 0.2s ease-in-out;
+	    margin: -20px -143px;
+	    width: 320px;
+	    position: relative;
+	    top: 50%;
+	    left: 50%;
+	    background-color: #3F99EB;
+	}
 	.imgdiscover{
 		margin-top: 70px; 
 		position: relative;
@@ -779,13 +779,35 @@ textarea {
 	}
 
 	/* Added */
+	.btn {
+	    border-radius: 100px;
+	    padding: 14px 15px;
+	    font-weight: 500;
+	    line-height: 43px;
+	    font-size: 36px;
+	    line-height: 1.42857143;
+	    min-width: 160px;
+	    text-align: center;
+	    -webkit-transition: all 0.2s ease-in-out;
+	    -moz-transition: all 0.2s ease-in-out;
+	    -ms-transition: all 0.2s ease-in-out;
+	    -o-transition: all 0.2s ease-in-out;
+	    transition: all 0.2s ease-in-out;
+	    margin: -20px -155px;
+	    width: 320px;
+	    position: relative;
+	    top: 50%;
+	    left: 50%;
+	    background-color: #3F99EB;
+	}
+
 	.imgdiscover {
     	margin-top: 5px;
     	position: relative;
     	margin-bottom: 13px;
 	}
 	.h3discover{
-		width: 343px; 
+		width: 363px; 
 		right: 0; position: 
 		absolute; 
 		margin: auto;
@@ -802,14 +824,14 @@ textarea {
 	    margin-right: 6px;
 	}
 	.h3social{
-		width: 343px;
+		width: 363px;
     	left: 0;
     	margin-left: -15px;
     	position: relative;
 	}
 	
 	.h3visit{
-		width: 320px; 
+		width: 363px; 
 		right: 0; 
 		position: absolute; 
 		margin: auto;
@@ -864,20 +886,21 @@ textarea {
 	.media-carousel img
 	{
 	  width: 100%;
-	  height: 70px;
+	  height: auto;
+	  position: absolute;
 	}
 	/* End carousel */
 	.trademarks {
 	  background-color: #F8F6FF;
-	  height: 300px;
-	  width: 343px;
+	  height: 535px;
+	  width: 363px;
 	  margin-left: 5px;
 	  position: relative;
 	}
 	._socialleft {
 	  background-color: #D3D3D3;
 	  min-height: 300px;
-	  max-width: 343px;
+	  max-width: 363px;
 	  margin-left: 5px;
 	  margin-top: 10px;
 	  position: relative;
@@ -885,24 +908,25 @@ textarea {
 	._socialright {
 	  background-color: #D3D3D3;
 	  min-height: 300px;
-	  max-width: 343px;
+	  max-width: 363px;
 	  margin-left: 5px;
 	  margin-top: 10px;
 	  position: relative;
 	}
 	.slider_fp {
 	  height: 110px;
-	  width: 650px;
+	  width: 363px;
 	  margin-right: 5px;
-	  margin-top: -5px;
+	  margin-top: -19px;
 	}
 
 	.visitus {
 	  background-color: #F8F6FF;
 	  height: 320px;
-	  width: 320px;
+	  width: 363px;
 	  margin-left: 5px;
 	  position: relative;
+	  margin-top: 20px;
 	}
 
 	.leftSlider{
