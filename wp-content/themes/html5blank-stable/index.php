@@ -120,7 +120,7 @@ foods and beverages to consumers.</p>
 				</div>
 		
 		<!-- section end -->	
-
+<!-- 
 	<script type="text/javascript">
 		$(document).ready(function() {
 		  $('#recommendations').carousel({
@@ -128,6 +128,6 @@ foods and beverages to consumers.</p>
 		    interval: false,
 		  });
 		});
-	</script>
+	</script> -->
 
 <?php get_footer(); ?>
