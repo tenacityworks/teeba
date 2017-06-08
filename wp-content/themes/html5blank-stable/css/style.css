@@ -517,6 +517,26 @@ blockquote {
 textarea {
 	resize: vertical;
 }
+/* New Carousel */
+.carousel-showsixmoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+.carousel-showsixmoveone .carousel-control.left {
+  margin-left: 15px;
+}
+.carousel-showsixmoveone .carousel-control.right {
+  margin-right: 15px;
+}
+.carousel-showsixmoveone .cloneditem-1,
+.carousel-showsixmoveone .cloneditem-2,
+.carousel-showsixmoveone .cloneditem-3,
+.carousel-showsixmoveone .cloneditem-4,
+.carousel-showsixmoveone .cloneditem-5 {
+  display: none;
+}
+/* New Carousel */
+
 
 /* Modals
 ---------------------------------- */
@@ -545,6 +565,48 @@ textarea {
 	.modal-lg {
 		width: 1140px;
 	}
+}
+
+@media all and (min-width: 992px) {
+  .carousel-showsixmoveone .carousel-inner > .active.left,
+  .carousel-showsixmoveone .carousel-inner > .prev {
+    left: -16.666%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .active.right,
+  .carousel-showsixmoveone .carousel-inner > .next {
+    left: 16.666%;
+  }
+  .carousel-showsixmoveone .carousel-inner > .left,
+  .carousel-showsixmoveone .carousel-inner > .prev.right,
+  .carousel-showsixmoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner .cloneditem-3,
+  .carousel-showsixmoveone .carousel-inner .cloneditem-4,
+  .carousel-showsixmoveone .carousel-inner .cloneditem-5 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showsixmoveone .carousel-inner > .item.active.right,
+  .carousel-showsixmoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(16.666%, 0, 0);
+            transform: translate3d(16.666%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.active.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-16.666%, 0, 0);
+            transform: translate3d(-16.666%, 0, 0);
+    left: 0;
+  }
+  .carousel-showsixmoveone .carousel-inner > .item.left,
+  .carousel-showsixmoveone .carousel-inner > .item.prev.right,
+  .carousel-showsixmoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
+  }
 }
 
 /* Media
@@ -771,6 +833,25 @@ textarea {
 		float: left !important;
 	}
 
+	.carousel-showsixmoveone .carousel-inner > .item.active.right,
+	.carousel-showsixmoveone .carousel-inner > .item.next {
+		-webkit-transform: translate3d(16.666%, 0, 0);
+		    transform: translate3d(16.666%, 0, 0);
+		left: 0;
+	}
+	.carousel-showsixmoveone .carousel-inner > .item.active.left,
+	.carousel-showsixmoveone .carousel-inner > .item.prev {
+		-webkit-transform: translate3d(-16.666%, 0, 0);
+		    transform: translate3d(-16.666%, 0, 0);
+		left: 0;
+	}
+	.carousel-showsixmoveone .carousel-inner > .item.left,
+	.carousel-showsixmoveone .carousel-inner > .item.prev.right,
+	.carousel-showsixmoveone .carousel-inner > .item.active {
+		-webkit-transform: translate3d(0, 0, 0);
+		    transform: translate3d(0, 0, 0);
+		left: 0;
+	}
 	
 }
 @media (max-width:767px) {
@@ -779,6 +860,21 @@ textarea {
 	}
 
 	/* Added */
+	.faSize{
+		font-size: 60px;
+	}
+	.aleft{
+		left: 0;
+		position: absolute;
+		margin-left: -10px;
+		margin-top: -132px;
+	}
+	.aright{
+		right: 0;
+		position: absolute;
+		margin-right: -10px;
+		margin-top: -132px;
+	}
 	.btn {
 	    border-radius: 100px;
 	    padding: 14px 15px;
@@ -892,7 +988,7 @@ textarea {
 	/* End carousel */
 	.trademarks {
 	  background-color: #F8F6FF;
-	  height: 535px;
+	  height: 565px;
 	  width: 363px;
 	  margin-left: 5px;
 	  position: relative;
@@ -917,7 +1013,7 @@ textarea {
 	  height: 110px;
 	  width: 363px;
 	  margin-right: 5px;
-	  margin-top: -19px;
+	  margin-top: 13px;
 	}
 
 	.visitus {
@@ -973,6 +1069,24 @@ textarea {
 	.fixed-header-on .navbar-default .navbar-nav > li > a {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	.carousel-showsixmoveone .carousel-inner > .active.left,
+	.carousel-showsixmoveone .carousel-inner > .prev {
+		left: -33.333%;
+	}
+	.carousel-showsixmoveone .carousel-inner > .active.right,
+	.carousel-showsixmoveone .carousel-inner > .next {
+		left: 33.333%;
+	}
+	.carousel-showsixmoveone .carousel-inner > .left,
+	.carousel-showsixmoveone .carousel-inner > .prev.right,
+	.carousel-showsixmoveone .carousel-inner > .active {
+		left: 0;
+	}
+	.carousel-showsixmoveone .carousel-inner .cloneditem-1,
+	.carousel-showsixmoveone .carousel-inner .cloneditem-2 {
+		display: block;
 	}
 }
 @media (max-width:991px) {
