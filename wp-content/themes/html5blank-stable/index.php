@@ -35,32 +35,40 @@ foods and beverages to consumers.</p>
 								<div class='row'>
 								<hr class="hrlook">
 									<div class='col-sm-12 slider_fp'>
-										<div class="carousel carousel-showsixmoveone slide"" id="recommendations">
-										  <div class="carousel-inner">
-									          <div class="item active">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
-									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
-									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
+									  <div class="carousel slide media-carousel" id="recommendations">
+									    <div class="carousel-inner sliderheight">
+									      <div class="item  active">
+									        <div class="row">
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>          
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
+									          </div>            
+									        </div>
+									      </div>
+									      <div class="item">
+									        <div class="row">
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
+									          </div>          
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="item">
-									            <div class="col-xs-12 col-sm-4 col-md-2"><a rel="nofollow" rel="noreferrer"href="#"><img src="/wp-content/themes/html5blank-stable/img/front_slider.png" class="img-responsive"></a></div>
-									          </div>
+									          <div class="col-md-3 col-sm-12">
+									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
+									          </div>            
+									        </div>
+									      </div>
 									    </div>
 									    <a data-slide="prev" href="#recommendations" class="aleft"><i class="fa fa-angle-left faSize" aria-hidden="true"></i></a>
 									    <a data-slide="next" href="#recommendations" class="aright"><i class="fa fa-angle-right faSize" aria-hidden="true"></i></a>
