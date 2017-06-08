@@ -361,9 +361,7 @@ blockquote {
 .space {
 	padding: 20px 0;
 }
-.spacetop {
-	padding: 112px 0;
-}
+
 .spacebottombutton {
 	padding: 45px 0;
 }
@@ -714,6 +712,9 @@ textarea {
 	  width: 650px;
 	  margin-right: 5px;
 	}
+	.spacetop {
+		padding: 112px 0;
+	}
 	._socialleft {
 	  background-color: #D3D3D3;
 	  min-height: 365px;
@@ -787,8 +788,15 @@ textarea {
 	.header.navbar-fixed-top {
 		position: absolute;
 	}
+	.apos{
+    	margin-bottom: 10px;
+    	position: absolute;
+	}
 
 	/* Added */
+	.spacetop {
+		padding: 58px 0;
+	}
 	.faSize{
 	font-size: 60px;
 	}

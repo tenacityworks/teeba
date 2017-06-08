@@ -38,7 +38,7 @@
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/teeba_logo.png" alt="Teeba"></a>
+								<a class="apos" href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/teeba_logo.png" alt="Teeba"></a>
 							</div>
 
 						</div>
