@@ -53,7 +53,7 @@
 
 							<!-- main-navigation start -->
 							<!-- ================ -->
-							<div  style="position: absolute;" class="main-navigation animated">
+							<div class="main-navigation animated positionswitch">
 
 								<!-- navbar start -->
 								<!-- ================ -->

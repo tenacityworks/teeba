@@ -589,6 +589,9 @@ textarea {
 	color: #55acee;
 }
 @media (min-width:768px) {
+	.positionswitch{
+		position: absolute;
+	}
 	.main-navigation .navbar-default .navbar-nav > li > a {
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -795,6 +798,9 @@ textarea {
 	
 }
 @media (min-width:375px) and (max-width:767px) {
+	.positionswitch{
+		position: relative;
+	}
 	.header.navbar-fixed-top {
 		position: absolute;
 	}
