@@ -623,6 +623,9 @@ textarea {
 	    left: 50%;
 	    background-color: #3F99EB;
 	}
+	.dropdown-menu > li > a{
+		font-size: 18px;
+	}
 	.imgdiscover{
 		margin-top: 70px; 
 		position: relative;
@@ -634,7 +637,7 @@ textarea {
 		margin: auto;
 	}
 	.tropicana{
-		padding-top: 70px;
+		padding-top: 76px;
 	}
 	.faSize{
 	font-size: 60px;
