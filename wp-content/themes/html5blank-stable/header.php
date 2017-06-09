@@ -30,7 +30,7 @@
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-3">
 
 						<!-- header-left start -->
 						<!-- ================ -->
@@ -45,7 +45,7 @@
 						<!-- header-left end -->
 
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-9">
 
 						<!-- header-right start -->
 						<!-- ================ -->
@@ -53,36 +53,43 @@
 
 							<!-- main-navigation start -->
 							<!-- ================ -->
-							<div class="main-navigation animated">
+							<div  style="position: absolute;" class="main-navigation animated">
 
 								<!-- navbar start -->
 								<!-- ================ -->
-								<nav class="navbar navbar-default" role="navigation">
-									<div class="container-fluid">
-
-										<!-- Toggle get grouped for better mobile display -->
-										<div class="navbar-header">
-											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-										</div>
-
-										<!-- Collect the nav links, forms, and other content for toggling -->
-										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-											<ul class="nav navbar-nav navbar-right">
-												<li class="active"><a href="#banner">About Teeba</a></li>
-												<li><a href="#">Trade Marks</a></li>
-												<li><a href="#">Careers</a></li>
-												<li><a href="#">FAQs</a></li>
-												<li><a href="#">Contact Us</a></li>
-											</ul>
-										</div>
-
-									</div>
-								</nav>
+									<nav class="navbar navbar-default">
+									  <div class="container-fluid">
+									    <!-- Brand and toggle get grouped for better mobile display -->
+									    <div class="navbar-header">
+									      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									        <span class="sr-only">Toggle navigation</span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									      </button>
+									    </div>
+									    <!-- Collect the nav links, forms, and other content for toggling -->
+									    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									      <ul class="nav navbar-nav">
+									        <li class="active"><a href="#">About Teeba<span class="sr-only">(current)</span></a></li>
+									        <li class="dropdown">
+									          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Brands<span class="caret"></span></a>
+									          <ul class="dropdown-menu">
+									            <li><a href="#">Teeba</a></li>
+									            <li><a href="#">Almarai</a></li>
+									            <li><a href="#">Tropicana</a></li>
+									            <li><a href="#">7 Days</a></li>
+									          </ul>
+									        </li>
+									        <li><a href="#">Trade Marks</a></li>
+									        <li><a href="#">Careers</a></li>
+									        <li><a href="#">FAQs</a></li>
+									        <li><a href="#">Contact Us</a></li>
+									        
+									      </ul>
+									    </div><!-- /.navbar-collapse -->
+									  </div><!-- /.container-fluid -->
+									</nav>
 								<!-- navbar end -->
 
 							</div>
