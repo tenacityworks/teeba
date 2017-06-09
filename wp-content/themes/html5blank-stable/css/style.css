@@ -153,6 +153,7 @@ body > div.container > div:nth-child(6) > div.col-sm-6._socialleft > div > p{
 }
 #bs-example-navbar-collapse-1 > ul > li.dropdown.open > ul > li:nth-child(n) > a:hover{
 	background-color: #003E75;
+	color: #fff;
 }
 .dropdown-menu {
 	background-color: #3F99EB; 
