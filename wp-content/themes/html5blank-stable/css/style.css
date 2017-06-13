@@ -164,6 +164,9 @@ a {
 a:hover {
 	color: #339BEB;
 }
+body > div.container > div:nth-child(5) > div.col-sm-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > h4{
+	color: #333333;
+}
 a:focus,
 a:active {
 	outline: none;
@@ -626,7 +629,7 @@ textarea {
 	    -ms-transition: all 0.2s ease-in-out;
 	    -o-transition: all 0.2s ease-in-out;
 	    transition: all 0.2s ease-in-out;
-	    margin: -20px -143px;
+	    margin: -20px -160px;
 	    width: 320px;
 	    position: relative;
 	    top: 50%;
@@ -638,7 +641,7 @@ textarea {
 		color: #fff;
 	}
 	.imgdiscover{
-		margin-top: 70px; 
+		margin-top: 60px; 
 		position: relative;
 	}
 	.h3discover{
@@ -648,7 +651,7 @@ textarea {
 		margin: auto;
 	}
 	.tropicana{
-		padding-top: 76px;
+		padding-top: 65px;
 	}
 	.faSize{
 	font-size: 60px;
@@ -734,7 +737,7 @@ textarea {
 	  margin-right: 5px;
 	}
 	.spacetop {
-		padding: 112px 0;
+		padding: 85px 0;
 	}
 	._socialleft {
 	  background-color: #D3D3D3;
