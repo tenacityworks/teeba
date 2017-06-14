@@ -125,16 +125,13 @@ body > div.container > div:nth-child(6) > div.col-sm-6._socialleft > div > p{
 .text-colored {
 	color: #55acee;
 }
-.navversion {
-    width: 100px;
-    height: 30px;
+
+body > div.container > header > div > div > div.col-md-9 > div > div > div > a{
+	font-size: 18px;
+    color: #fff;
     position: absolute;
-    background: #3F99EB;
-    text-align: -webkit-center;
-    font-size: 16px;
-    right: 0;
-    margin-top: -11px;
-    margin-right: -14px;
+    margin-left: -28px;
+    margin-top: 0px;
 }
 
 .aleft{
@@ -624,6 +621,16 @@ textarea {
 		transition: all 0.3s ease-in-out;
 	}
 	/* Added */
+	.navversion {
+	    width: 100px;
+	    height: 30px;
+	    position: absolute;
+	    background: #3F99EB;
+	    text-align: -webkit-center;
+	    right: 0;
+	    margin-top: -11px;
+    	margin-right: -14px;
+	}
 	.carousel-inner .active.left { left: -16.7%; }
 	.carousel-inner .next        { left:  16.7%; }
 	.carousel-inner .prev		 { left: -16.7%; }
@@ -833,6 +840,16 @@ textarea {
 	}
 
 	/* Added */
+	.navversion {
+    	width: 100px;
+    	height: 30px;
+    	position: absolute;
+    	background: #3F99EB;
+    	text-align: -webkit-center;
+    	right: 0;
+    	margin-top: -30px;
+    	margin-right: -15px;
+	}
 	.spacetop {
 		padding: 58px 0;
 	}
