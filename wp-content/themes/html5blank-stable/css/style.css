@@ -134,6 +134,10 @@ body > div.container > header > div > div > div.col-md-9 > div > div > div > a{
     margin-top: 0px;
 }
 
+body.fixed-header-on > div.container > header > div > div > div.col-md-9 > div > div > div{
+	height: 26px;
+}
+
 .aleft{
 
 	left: 0;
