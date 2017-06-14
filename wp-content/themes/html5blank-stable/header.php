@@ -53,7 +53,7 @@
 
 							<!-- main-navigation start -->
 							<!-- ================ -->
-							<div class="main-navigation animated positionswitch">
+							<div class="main-navigation animated positionswitch"><div class="navversion">English</div>
 
 								<!-- navbar start -->
 								<!-- ================ -->
