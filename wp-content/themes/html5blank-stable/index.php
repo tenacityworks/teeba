@@ -39,32 +39,32 @@ foods and beverages to consumers.</p>
 									    <div class="carousel-inner sliderheight">
 									      <div class="item  active">
 									        <div class="row">
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>          
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>            
 									        </div>
 									      </div>
 									      <div class="item">
 									        <div class="row">
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>          
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt=""  src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>
-									          <div class="col-md-3 col-sm-12">
+									          <div class="col-md-3 col-sm-6">
 									            <a href="#"><img alt="" src="/wp-content/themes/html5blank-stable/img/front_slider.png"></a>
 									          </div>            
 									        </div>

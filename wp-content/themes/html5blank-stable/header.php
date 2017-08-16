@@ -30,76 +30,35 @@
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
 
-						<!-- header-left start -->
-						<!-- ================ -->
-						<div class="header-left clearfix">
-
-							<!-- logo -->
-							<div class="logo smooth-scroll">
-								<a class="apos" href="/"><img id="logo" src="/wp-content/themes/html5blank-stable/img/teeba_logo.png" alt="Teeba"></a>
-							</div>
-
+					<div class="col-md-2">
+						<!-- logo -->
+						<div class="logo smooth-scroll">
+							<a href="<?php echo home_url(); ?>">
+								<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+								<img src="<?php echo get_template_directory_uri(); ?>/img/teeba_logo.png" alt="Logo" class="logo-img">
+							</a>
 						</div>
-						<!-- header-left end -->
-
+						<!-- /logo -->
 					</div>
-					<div class="col-md-9">
-
-						<!-- header-right start -->
-						<!-- ================ -->
-						<div class="header-right clearfix">
-
-							<!-- main-navigation start -->
-							<!-- ================ -->
-							<div class="main-navigation animated positionswitch"><div class="navversion"><a>English</a></div>
-
-								<!-- navbar start -->
-								<!-- ================ -->
-									<nav class="navbar navbar-default">
-									  <div class="container-fluid">
-									    <!-- Brand and toggle get grouped for better mobile display -->
-									    <div class="navbar-header">
-									      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-									        <span class="sr-only">Toggle navigation</span>
-									        <span class="icon-bar"></span>
-									        <span class="icon-bar"></span>
-									        <span class="icon-bar"></span>
-									      </button>
-									    </div>
-									    <!-- Collect the nav links, forms, and other content for toggling -->
-									    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-									      <ul class="nav navbar-nav">
-									        <li class="active"><a href="#">About Teeba<span class="sr-only">(current)</span></a></li>
-									        <li class="dropdown">
-									          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Brands<span class="caret"></span></a>
-									          <ul class="dropdown-menu">
-									            <li><a href="#">Teeba</a></li>
-									            <li><a href="#">Almarai</a></li>
-									            <li><a href="#">Tropicana</a></li>
-									            <li><a href="#">7 Days</a></li>
-									          </ul>
-									        </li>
-									        <li><a href="#">Trade Marks</a></li>
-									        <li><a href="#">Careers</a></li>
-									        <li><a href="#">FAQs</a></li>
-									        <li><a href="#">Contact Us</a></li>
-									        
-									      </ul>
-									    </div><!-- /.navbar-collapse -->
-									  </div><!-- /.container-fluid -->
-									</nav>
-								<!-- navbar end -->
-
-							</div>
-							<!-- main-navigation end -->
-
-						</div>
-						<!-- header-right end -->
-
+					<div class="col-md-10">
+					<div class="main-navigation animated smooth-scroll positionswitch"><div class="navversion"><a>العربية  |  English</a></div>
+				
+		<!-- 			<?php //get_search_form(); ?> -->
+						<!-- nav -->
+						<nav class="nav " role="navigation">
+							<?php html5blank_nav(); ?>
+						</nav>
+						<?php get_search_form(); ?>
+						<!-- /nav -->
+				<!-- 	<form id="search" action="#" method="post">
+						<div id="label"><label for="search-terms" id="search-label">search</label></div>
+						<div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
+					</form> -->
 					</div>
 				</div>
+
 			</div>
+
 		</header>
-		<!-- header end -->
+		<!-- /header -->
