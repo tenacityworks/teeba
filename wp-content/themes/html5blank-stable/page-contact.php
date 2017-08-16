@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="spacetop"></div>
+		<div class="spacetop-pages"></div>
 		<div class="container">
 			<h2 id="about">Contact</h2>		
 			<div class="col-sm-5 ">

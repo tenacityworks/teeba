@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 		<!-- section start -->
 		<!-- ================ -->
-		<div class="spacetop"></div>
+		<div class="spacetop-pages"></div>
 				<div class="row">
 					<h2 id="about" class="title">Social Media</h2>
 				</div>

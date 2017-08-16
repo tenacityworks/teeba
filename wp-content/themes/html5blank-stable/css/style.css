@@ -829,6 +829,9 @@ textarea {
 	.spacetop {
 		padding: 85px 0;
 	}
+	.spacetop-pages {
+		padding: 60px 0;
+	}
 	._socialleft {
 	  background-color: #D3D3D3;
 	  min-height: 365px;
