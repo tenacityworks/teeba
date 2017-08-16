@@ -66,6 +66,16 @@ h3 {
 	margin-bottom: 0px;
 
 }
+.our-vision{
+	left: 0;
+    position: absolute;
+}
+body > div.container > div.container > div.col-sm-5 > div > h3{
+	background-color: transparent;
+	color: #00529C;
+	padding-left: 0;
+
+}
 
 h1 {
 	font-size: 80px;
@@ -162,6 +172,11 @@ li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-men
 .navversion > a, .navversion > a:hover{
 	color: #fff;
 	text-decoration:none;
+}
+.contact-map{
+	width: 650px;
+	height: 529px; 
+	background-color: #fff;
 }
 /* Menu styles end */
 
