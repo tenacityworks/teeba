@@ -32,33 +32,32 @@
 				<div class="row">
 
 					<div class="col-md-2">
-						<!-- logo -->
+							<!-- logo -->
 						<div class="logo smooth-scroll">
 							<a href="<?php echo home_url(); ?>">
 								<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 								<img src="<?php echo get_template_directory_uri(); ?>/img/teeba_logo.png" alt="Logo" class="logo-img">
 							</a>
 						</div>
-						<!-- /logo -->
+							<!-- /logo -->
 					</div>
 					<div class="col-md-10">
-					<div class="main-navigation animated smooth-scroll positionswitch"><div class="navversion"><a>العربية  |  English</a></div>
-				
-		<!-- 			<?php //get_search_form(); ?> -->
-						<!-- nav -->
-						<nav class="nav " role="navigation">
-							<?php html5blank_nav(); ?>
-						</nav>
-						<?php get_search_form(); ?>
-						<!-- /nav -->
-				<!-- 	<form id="search" action="#" method="post">
-						<div id="label"><label for="search-terms" id="search-label">search</label></div>
-						<div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
-					</form> -->
+						<div class="main-navigation animated smooth-scroll positionswitch"><div class="navversion"><a>العربية  |  English</a></div>
+					
+			<!-- 			<?php //get_search_form(); ?> -->
+							<!-- nav -->
+							<nav class="nav " role="navigation">
+								<?php html5blank_nav(); ?>
+							</nav>
+							<?php get_search_form(); ?>
+							<!-- /nav -->
+					<!-- 	<form id="search" action="#" method="post">
+							<div id="label"><label for="search-terms" id="search-label">search</label></div>
+							<div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
+						</form> -->
+						</div>
 					</div>
 				</div>
-
 			</div>
-
 		</header>
 		<!-- /header -->

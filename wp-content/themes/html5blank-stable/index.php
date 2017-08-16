@@ -116,8 +116,8 @@ foods and beverages to consumers.</p>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+					<!-- </div> -->
+				<!-- </div> -->
 		
 		<!-- section end -->	
 
