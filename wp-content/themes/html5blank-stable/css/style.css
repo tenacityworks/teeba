@@ -1802,3 +1802,52 @@ body > div.container > div.container > div.col-sm-4 > div > p{
     margin-left: 12px;
     margin-bottom: -5px;
 }
+
+.brands{
+	width: 129px; 
+	height: 129px;
+	margin: 15px;
+}
+
+.brands-more-dets{
+	margin-left: 13px;
+}
+
+.brands-more-dets button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    border: none; 
+    background: #3F99EB;
+}
+
+.brands-tabs{
+	margin-left: -15px;
+	background: #d3d3d3;
+}
+
+.brands-tabs-text{
+	background: #d3d3d3;
+}
+
+.brands-tabs-image{
+	background: #d3d3d3;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
