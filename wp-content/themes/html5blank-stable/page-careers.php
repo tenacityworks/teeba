@@ -7,7 +7,7 @@
 			<div class="col-sm-8 ">
 				<div class="why-teeba">
 				<h3>Why Teeba</h3>
-					<p>There are so many reasons you will want to join the Teeba family, since we offer all you look for in a future position by:</p>
+					<p style="margin-left: -15px;">There are so many reasons you will want to join the Teeba family, since we offer all you look for in a future position by:</p>
 					<p style="padding: 10px;">
 						1. Providing equal employment opportunities for all members of the society.<br>
 						2. Treating all employees fairly and with respect and giving them clear career development opportunities.<br>
