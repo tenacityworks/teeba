@@ -70,6 +70,16 @@ h3 {
 	margin-left: -15px;
 	background: #fff;
 }
+.join-us{
+	width:320px;
+	height:350px;
+	background: #fff;
+}
+.why-teeba h3{
+	background-color: transparent;
+	color: #00529C;
+	padding-left: 0;
+}
 .our-vision{
 	left: 0;
     position: absolute;
@@ -1721,3 +1731,65 @@ nav a {
 /*nav a:hover {
     color: #3296c8
 }*/
+#file-upload {
+    position: absolute;
+    left: -9999px;
+}
+
+label[for="file-upload"]{
+  padding:0.5em;  
+  display:inline-block;
+  background:#3F99EB;
+  color: #fff;
+  cursor:pointer;
+  &:hover{background:#3F99EB}
+}
+
+#filename{
+  padding:0.5em;
+  float:left;
+  width:150px;
+  color: #000;
+  white-space: nowrap;
+  overflow:hidden;
+  background:#d3d3d3;
+}
+
+.join-us-name{
+    position: relative;
+    padding: 17px;
+    width: 89px;
+}
+
+.join-us-name input{
+	width: 285px;
+	height: 45px;
+}
+
+.join-us-upload{
+	 padding: 17px;
+}
+
+.join-us-send-cv{
+	padding: 17px;
+}
+
+.join-us-send-cv button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    border: none; 
+    background: #3F99EB;
+}
+
+.join-us-email input{
+	width: 285px;
+	height: 45px;
+}
+
+.join-us-email{
+    position: relative;
+    padding: 17px;
+    width: 89px;
+}
