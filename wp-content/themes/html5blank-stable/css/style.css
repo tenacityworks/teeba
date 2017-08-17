@@ -81,6 +81,17 @@ h3 {
 	padding-left: 0;
 	margin-left: -15px;
 }
+.about-teeba h3{
+	background-color: transparent;
+	color: #00529C;
+	padding-left: 0;
+}
+
+.about-teeba{
+	background-color: #fff;
+	padding-left: 24px;
+}
+
 .our-vision{
 	left: 0;
     position: absolute;
