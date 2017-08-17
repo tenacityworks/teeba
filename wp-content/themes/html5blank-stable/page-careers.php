@@ -19,6 +19,7 @@
 			<div class="col-sm-4">
 				<div class="join-us">
 					<h3>Join Us</h3>
+						<p>If you would like to join our Teeba family, upload your CV here.</p>
 					<form method="post" enctype="multipart/form-data" action="">
 						<div class="join-us-name"><input type="text" name="name" placeholder="Your Name"></div>
 						<div class="join-us-email"><input type="text" name="email" placeholder="Your Email"></div>

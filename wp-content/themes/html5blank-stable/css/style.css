@@ -1759,6 +1759,7 @@ label[for="file-upload"]{
     position: relative;
     padding: 17px;
     width: 89px;
+    margin-bottom: -15px;
 }
 
 .join-us-name input{
@@ -1767,7 +1768,8 @@ label[for="file-upload"]{
 }
 
 .join-us-upload{
-	 padding: 17px;
+	padding: 17px;
+	margin-bottom: -20px;
 }
 
 .join-us-send-cv{
@@ -1792,4 +1794,10 @@ label[for="file-upload"]{
     position: relative;
     padding: 17px;
     width: 89px;
+    margin-bottom: -15px;
+}
+body > div.container > div.container > div.col-sm-4 > div > p{
+    padding: 5px;
+    margin-left: 12px;
+    margin-bottom: -5px;
 }
