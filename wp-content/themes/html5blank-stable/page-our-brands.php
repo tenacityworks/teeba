@@ -17,7 +17,7 @@
 					</div>
 					<div class="col-sm-3 brands-tabs-image">
 						<div class="brands">
-							<img style="width: 100%; height: auto;" src="<?php echo get_template_directory_uri(); ?>/img/7days.png">
+							<img style="width: 100%; height: auto;" src="/wp-content/themes/html5blank-stable/img/7days.png">
 						</div>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 					</div>
 					<div class="col-sm-3 brands-tabs-image">
 						<div class="brands">
-							<img style="width: 100%; height: auto;" src="<?php echo get_template_directory_uri(); ?>/img/7days.png">
+							<img style="width: 100%; height: auto;" src="/wp-content/themes/html5blank-stable/img/7days.png">
 						</div>
 					</div>
 				</div>
@@ -56,7 +56,7 @@
 					</div>
 					<div class="col-sm-3 brands-tabs-image">
 						<div class="brands">
-							<img style="width: 100%; height: auto;" src="<?php echo get_template_directory_uri(); ?>/img/7days.png">
+							<img style="width: 100%; height: auto;" src="/wp-content/themes/html5blank-stable/img/7days.png">
 						</div>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 					</div>
 					<div class="col-sm-3 brands-tabs-image">
 						<div class="brands">
-							<img style="width: 100%; height: auto;" src="<?php echo get_template_directory_uri(); ?>/img/7days.png">
+							<img style="width: 100%; height: auto;" src="/wp-content/themes/html5blank-stable/img/7days.png">
 						</div>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 					</div>
 					<div class="col-sm-3 brands-tabs-image">
 						<div class="brands">
-							<img style="width: 100%; height: auto;" src="<?php echo get_template_directory_uri(); ?>/img/7days.png">
+							<img style="width: 100%; height: auto;" src="/wp-content/themes/html5blank-stable/img/7days.png">
 						</div>
 					</div>
 				</div>
