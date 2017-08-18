@@ -8,20 +8,17 @@
 	<h2 id="about"><?php the_title(); ?></h2>
 	<div  class="col-sm-12">
 		<div style="margin-left: -15px;">
-		<h4>About 7DAYS</h4>
+		<h4>About <?php the_title(); ?></h4>
+		<?php  while ( have_posts() ) : the_post(); ?>
 			<div class="col-sm-9">
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-				ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-				anim id est laborum."</p>
-
+				<?php the_content(); ?>
 			</div>
 			<div class="col-sm-3">
 				<div>
-					<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days.png">
+					<?php the_post_thumbnail(); ?>
 				</div>
 			</div>
+		<?php endwhile;?>
 		</div>
 	</div>
 
