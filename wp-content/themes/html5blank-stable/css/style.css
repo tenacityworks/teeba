@@ -1855,6 +1855,12 @@ body > div.container > div.container > div.col-sm-4 > div > p{
     margin: 15px;
  }
 
+.brands-tabs div.details{
+	background: #fff;
+    border: 1px solid #d3d3d3;
+    display: inline-block
+}
+
 
 
 
