@@ -38,8 +38,8 @@
 
 			</div>
 			<div class="col-sm-3 brands-tabs-image">
-				<div class="brands">
-					<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days.png">
+				<div class="brand-desc">
+					<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_SWISS-ROLL-VANILLA.png">
 				</div>
 			</div>
 		</div>
@@ -58,8 +58,8 @@
 
 				</div>
 				<div class="col-sm-3 brands-tabs-image">
-					<div class="brands">
-						<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days.png">
+					<div class="brand-desc">
+						<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_SWISS-ROLL-VANILLA.png">
 					</div>
 				</div>
 			</div>
