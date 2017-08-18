@@ -32,13 +32,29 @@
 						<p>Available sizes<br>
 						2l<br>
 						950ml
-						</p>
-							
+						</p>							
 						</div><!-- /Product Details 2 -->
 						<div class="col-sm-6"><!-- Product Image 2 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png">
-							</div>
+						  <div class="carousel slide" id="product2">
+						    <div class="carousel-inner sliderheight">
+						      <div class="item  active">
+						        <div class="row">
+						          <div class="products-carousel">
+						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png"></a>
+						          </div>                     
+						        </div>
+						      </div>
+						      <div class="item">
+						        <div class="row">
+						          <div class="products-carousel">
+						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png"></a>
+						          </div>                     
+						        </div>
+						      </div>
+						    </div>
+						    <a data-slide="prev" href="#product2" class="aleft-products"><i class="fa fa-angle-left faSize-products" aria-hidden="true"></i></a>
+						    <a data-slide="next" href="#product2" class="aright-products"><i class="fa fa-angle-right faSize-products" aria-hidden="true"></i></a>
+						  </div>                          
 						</div><!-- /Product Image 2 -->
 					</div>
 				</div>
@@ -90,9 +106,26 @@
 						</p>	
 						</div><!-- /Product Details 1 -->
 						<div class="col-sm-6"><!-- Product Image 1 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png">		
-							</div>
+						  <div class="carousel slide" id="product1">
+						    <div class="carousel-inner sliderheight">
+						      <div class="item  active">
+						        <div class="row">
+						          <div class="products-carousel">
+						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png"></a>
+						          </div>                     
+						        </div>
+						      </div>
+						      <div class="item">
+						        <div class="row">
+						          <div class="products-carousel">
+						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png"></a>
+						          </div>                     
+						        </div>
+						      </div>
+						    </div>
+						    <a data-slide="prev" href="#product1" class="aleft-products"><i class="fa fa-angle-left faSize-products" aria-hidden="true"></i></a>
+						    <a data-slide="next" href="#product1" class="aright-products"><i class="fa fa-angle-right faSize-products" aria-hidden="true"></i></a>
+						  </div>                          
 						</div><!-- /Product Image 1 -->
 					</div>
 				</div>

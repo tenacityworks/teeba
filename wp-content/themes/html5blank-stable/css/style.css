@@ -88,8 +88,7 @@ h3 {
 }
 
 .about-teeba{
-	background-color: #D3D3D3;
-	opacity: 0.9;
+	background-color: #F5F5F5;
 	padding-left: 9px;
 	margin-left: -15px;
 }
@@ -220,6 +219,18 @@ li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-men
     position: absolute;
     margin-right: 5px;
     margin-top: -65px;
+}
+.aright-products{
+	right: 0;
+    position: absolute;
+    margin-right: 5px;
+    margin-top: -105px;
+}
+.aleft-products{
+	left: 0;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -105px;
 }
 .hrlook{
 	margin-top: 0px; 
@@ -1837,15 +1848,15 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 
 .brands-tabs{
 	margin-left: -15px;
-	background: #d3d3d3;
+	background: #F5F5F5;
 }
 
 .brands-tabs-text{
-	background: #d3d3d3;
+	background: #F5F5F5;
 }
 
 .brands-tabs-image{
-	background: #d3d3d3;
+	background: #F5F5F5;
 	height: 200px;
 }
 
@@ -1859,6 +1870,16 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 	background: #fff;
     border: 1px solid #d3d3d3;
     display: inline-block
+}
+
+.products-carousel {
+	width: 173px;
+	height: 173px;
+	margin-left: 13px;
+}
+
+.faSize-products{
+font-size: 40px;
 }
 
 
