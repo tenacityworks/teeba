@@ -479,4 +479,37 @@ function theme_js() {
 
 add_action( 'wp_enqueue_scripts', 'theme_js');
 
+
+
+function my_custom_post_product() {
+  $labels = array(
+    'name'               => _x( 'Brands', 'post type general name' ),
+    'singular_name'      => _x( 'Brand', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'book' ),
+    'add_new_item'       => __( 'Add New Brand' ),
+    'edit_item'          => __( 'Edit Brand' ),
+    'new_item'           => __( 'New Brand' ),
+    'all_items'          => __( 'All Brands' ),
+    'view_item'          => __( 'View Brand' ),
+    'search_items'       => __( 'Search Brands' ),
+    'not_found'          => __( 'No products found' ),
+    'not_found_in_trash' => __( 'No products found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Brands'
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Teeba our products and product specific data',
+    'public'        => true,
+    'menu_icon'     => 'dashicons-portfolio',
+    'taxonomies' => array('category', 'post_tag'),
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+    'has_archive'   => true,
+  );
+  register_post_type( 'brands', $args ); 
+}
+
+add_action( 'init', 'my_custom_post_product' );
+
 ?>

@@ -2,7 +2,7 @@
 
 	$_args = array(
 	    'post_status'       => 'publish',
-	    'post_type'         => 'post',
+	    'post_type'         => 'brands',
 	    'offset'            => 0,
 	    'orderby'           => 'date',
 	    'posts_per_page'    => 8,
