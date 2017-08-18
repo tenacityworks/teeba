@@ -68,7 +68,7 @@ h3 {
 }
 .faq{
 	margin-left: -15px;
-	background: #fff;
+	background: #F5F5F5;
 }
 .join-us{
 	width:320px;
@@ -88,8 +88,10 @@ h3 {
 }
 
 .about-teeba{
-	background-color: #fff;
-	padding-left: 24px;
+	background-color: #D3D3D3;
+	opacity: 0.9;
+	padding-left: 9px;
+	margin-left: -15px;
 }
 
 .our-vision{
@@ -1836,15 +1838,18 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 .brands-tabs{
 	margin-left: -15px;
 	background: #d3d3d3;
+	opacity: 0.9;
 }
 
 .brands-tabs-text{
 	background: #d3d3d3;
+	opacity: 0.9;
 }
 
 .brands-tabs-image{
 	background: #d3d3d3;
 	height: 200px;
+	opacity: 0.9;
 }
 
 
