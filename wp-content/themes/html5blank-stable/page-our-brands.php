@@ -25,7 +25,7 @@
        <?php while ($brands->have_posts()) : $brands->the_post(); ?>	
 			<div  class="col-sm-12">
 				<div class="brands-tabs">
-				<h3><?php the_title(); ?></h3>
+				<a href="<?php the_permalink() ?>"><h3><?php the_title();?></h3>
 					<div class="col-sm-9 brands-tabs-text">
 						<?php the_content(); ?>
 						<div class="brands-more-dets"><button name="cv" type="submit">More Details</button></div>
@@ -34,8 +34,7 @@
 						<div class="brands">
 							<?php the_post_thumbnail(); ?>
 						</div>
-					</div>
-					<!-- <div class="brands-more-dets"><button name="cv" type="submit">More Details</button></div> -->
+					</div></a>
 				</div>
 			</div>
 		<?php endwhile; 
