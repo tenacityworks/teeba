@@ -253,11 +253,15 @@ li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-men
 .dropdown-menu {
 	background-color: #3F99EB; 
 }
-a {
+/*a {
 	color: #00529C;
 }
 a:hover {
 	color: #339BEB;
+}*/
+
+a:hover {
+	color: transparent !important;
 }
 body > div.container > div:nth-child(5) > div.col-sm-7.trademarks > div:nth-child(2) > div:nth-child(1) > div > h4{
 	color: #333333;
