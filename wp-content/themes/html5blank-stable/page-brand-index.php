@@ -18,50 +18,47 @@
 					<?php the_post_thumbnail(); ?>
 				</div>
 			</div>
-		<?php endwhile;?>
+		<?php endwhile; wp_reset_query(); ?>
 		</div>
 	</div>
 
+	<?php
+
+		$brand_product_category = @get_field("brand_category");
+
+		$_args = array(
+	    'post_status'       => 'publish',
+	    'post_type'         => 'products',
+	    'offset'            => 0,
+	    'orderby'           => 'date',
+	    'posts_per_page'    => 8,
+	    'tax_query'         => array(
+	    array(
+	        'taxonomy'      => 'category',
+	        'field'         => 'slug',
+	        'terms'         => $brand_product_category
+	    )),
+	); 
+
+	$products             = new WP_Query($_args);?>
+
 	<h4>Products</h4>
+	<?php while ($products->have_posts()) : $products->the_post(); ?>	
 	<div class="col-sm-12">
 		<div class="brands-tabs">
-		<a href="<?php the_permalink(39); ?>"><h3>Dairy Liquids</h3>
+		<a href=""><h3><?php the_title(); ?></h3>
 			<div class="col-sm-9 brands-tabs-text">
-				<p style="padding: 15px;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-				ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-				nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-				anim id est laborum."<div class="brands-more-dets"><button name="cv" type="submit">View Products</button></div></p>
-
+				<?php the_content(); ?>
+				<div class="brands-more-dets"><button name="cv" type="submit">View Products</button></div>
 			</div>
 			<div class="col-sm-3 brands-tabs-image">
 				<div class="brand-desc">
-					<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_SWISS-ROLL-VANILLA.png">
+					<?php the_post_thumbnail(); ?>
 				</div>
 			</div></a>
 		</div>
 	</div>
-
-
-	<div class="col-sm-12">
-		<div class="brands-tabs">
-			<h3>Food</h3>
-				<div class="col-sm-9 brands-tabs-text">
-					<p style="padding: 15px;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-					ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-					nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-					anim id est laborum."<div class="brands-more-dets"><button name="cv" type="submit">View Products</button></div></p>
-
-				</div>
-				<div class="col-sm-3 brands-tabs-image">
-					<div class="brand-desc">
-						<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_SWISS-ROLL-VANILLA.png">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php endwhile; wp_reset_query(); ?></div>
 		
 		<!-- section end -->	
 

@@ -481,11 +481,11 @@ add_action( 'wp_enqueue_scripts', 'theme_js');
 
 
 
-function my_custom_post_product() {
+function ___brands() {
   $labels = array(
     'name'               => _x( 'Brands', 'post type general name' ),
     'singular_name'      => _x( 'Brand', 'post type singular name' ),
-    'add_new'            => _x( 'Add New', 'book' ),
+    'add_new'            => _x( 'Add New', 'brand' ),
     'add_new_item'       => __( 'Add New Brand' ),
     'edit_item'          => __( 'Edit Brand' ),
     'new_item'           => __( 'New Brand' ),
@@ -499,7 +499,7 @@ function my_custom_post_product() {
   );
   $args = array(
     'labels'        => $labels,
-    'description'   => 'Teeba our products and product specific data',
+    'description'   => 'Teeba our brands specific data',
     'public'        => true,
     'menu_icon'     => 'dashicons-portfolio',
     'taxonomies' => array('category', 'post_tag'),
@@ -510,6 +510,37 @@ function my_custom_post_product() {
   register_post_type( 'brands', $args ); 
 }
 
-add_action( 'init', 'my_custom_post_product' );
+add_action( 'init', '___brands' );
+
+function ___brand_products() {
+  $labels = array(
+    'name'               => _x( 'Brand Products', 'post type general name' ),
+    'singular_name'      => _x( 'Brand Product', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'product' ),
+    'add_new_item'       => __( 'Add New Brand Product' ),
+    'edit_item'          => __( 'Edit Brand Product' ),
+    'new_item'           => __( 'New Brand Product' ),
+    'all_items'          => __( 'All Brand Products' ),
+    'view_item'          => __( 'View Brand Products' ),
+    'search_items'       => __( 'Search Brands' ),
+    'not_found'          => __( 'No products found' ),
+    'not_found_in_trash' => __( 'No products found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Brand Products'
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Teeba our brand products and product specific data',
+    'public'        => true,
+    'menu_icon'     => 'dashicons-index-card',
+    'taxonomies' => array('category', 'post_tag'),
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+    'has_archive'   => true,
+  );
+  register_post_type( 'products', $args ); 
+}
+
+add_action( 'init', '___brand_products' );
 
 ?>
