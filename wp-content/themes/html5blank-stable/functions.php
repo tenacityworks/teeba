@@ -523,8 +523,8 @@ function ___brand_products() {
     'all_items'          => __( 'All Brand Products' ),
     'view_item'          => __( 'View Brand Products' ),
     'search_items'       => __( 'Search Brands' ),
-    'not_found'          => __( 'No products found' ),
-    'not_found_in_trash' => __( 'No products found in the Trash' ), 
+    'not_found'          => __( 'No brand products found' ),
+    'not_found_in_trash' => __( 'No brand products found in the Trash' ), 
     'parent_item_colon'  => '',
     'menu_name'          => 'Brand Products'
   );
@@ -542,5 +542,43 @@ function ___brand_products() {
 }
 
 add_action( 'init', '___brand_products' );
+
+function ___product_items() {
+  $labels = array(
+    'name'               => _x( 'Product Items', 'post type general name' ),
+    'singular_name'      => _x( 'Product Item', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'item' ),
+    'add_new_item'       => __( 'Add New Product Item' ),
+    'edit_item'          => __( 'Edit Product Item' ),
+    'new_item'           => __( 'New Product Item' ),
+    'all_items'          => __( 'All Product Items' ),
+    'view_item'          => __( 'View Product Items' ),
+    'search_items'       => __( 'Search Product Items' ),
+    'not_found'          => __( 'No product items found' ),
+    'not_found_in_trash' => __( 'No product items found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Product Items'
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Product item specific data',
+    'public'        => true,
+    'menu_icon'     => 'dashicons-info',
+    'taxonomies' => array('category', 'post_tag'),
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'excerpt' ),
+    'has_archive'   => true,
+  );
+  register_post_type( 'product_items', $args ); 
+}
+
+add_action( 'init', '___product_items' );
+
+function add_featured_galleries_to_ctp( $post_types ) {
+    array_push($post_types, 'product_items');
+    return $post_types;
+}
+
+add_filter('fg_post_types', 'add_featured_galleries_to_ctp' );
 
 ?>

@@ -333,7 +333,7 @@ blockquote {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-	height: 100px;
+	height: 120px;
 }
 .banner {
 	width: 100%;
@@ -1179,7 +1179,7 @@ textarea {
 .fixed-header-on .header {
 	background-color: #003E75;
 	padding: 5px 0;
-	height: 65px;
+	height: 90px;
 }
 .fixed-header-on .site-name {
 	font-size: 24px;
@@ -1857,6 +1857,13 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 	display: inline-block;
 	margin-bottom: 25px;
 }
+.product-items{
+	margin-left: -15px;
+	background: #FFF;
+	display: inline-block;
+	margin-bottom: -6px;
+	border: 1px solid #d3d3d3;
+}
 
 .brands-tabs-text{
 	background: #F5F5F5;
@@ -1874,10 +1881,14 @@ body > div.container > div.container > div.col-sm-4 > div > p{
     margin: 15px;
  }
 
-.brands-tabs div.details{
+.product-items div.details{
 	background: #fff;
-    border: 1px solid #d3d3d3;
     display: inline-block
+    border-right: 1px solid #d3d3d3;
+}
+
+.details col-sm-6{
+    border-right: 1px solid #d3d3d3;
 }
 
 .products-carousel {
@@ -1888,6 +1899,14 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 
 .faSize-products{
 font-size: 40px;
+}
+
+.bcpos{
+	position: absolute;
+    bottom: -1px;
+    padding-left: 230px;
+    background:#3F99EB;
+    width: 100%;
 }
 
 

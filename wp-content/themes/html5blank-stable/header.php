@@ -59,5 +59,11 @@
 					</div>
 				</div>
 			</div>
+			<div class="breadcrumbs bcpos" typeof="BreadcrumbList" vocab="http://schema.org/">
+				<?php if(function_exists('bcn_display'))
+				{
+				bcn_display();
+				}?>
+			</div>
 		</header>
 		<!-- /header -->
