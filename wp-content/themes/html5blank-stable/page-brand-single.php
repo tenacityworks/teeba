@@ -1,13 +1,32 @@
 <?php /* Template Name: Template - Brand Single */ ?>
 
-<?php get_header(); ?>
+<?php get_header();
+
+	$cat = "7-days-products";
+
+	$_args = array(
+    'post_status'       => 'publish',
+    'post_type'         => 'product_items',
+    'offset'            => 0,
+    'orderby'           => 'date',
+    'posts_per_page'    => 8,
+    'tax_query'         => array(
+    array(
+        'taxonomy'      => 'category',
+        'field'         => 'slug',
+        'terms'         => $cat
+    )),
+); 
+
+$products             = new WP_Query($_args);?>
+
 		<!-- section start -->
 		<!-- ================ -->
 	<div class="spacetop-pages"></div>
 	<div class="container">
-	<h3 style="width: 935px;">Dairy Liquids</h3>
+	<h3 style="width: 935px;">Swiss Roll</h3>
 		<div class="col-sm-12">
-			<div class="brands-tabs">
+			<div class="product-items">
 				<div class="col-sm-6 details">
 					<div class="col-sm-12">
 						<div class="col-sm-6"><!-- Product Details 1 -->
@@ -28,7 +47,7 @@
 				<div class="col-sm-6 details">
 					<div class="col-sm-12">
 						<div class="col-sm-6"><!-- Product Details 2 -->
-						<h4>Fresh Yoghurt</h4>
+						<h4>Strawberry Swiss Roll</h4>
 						<p>Available sizes<br>
 						2l<br>
 						950ml
@@ -61,14 +80,12 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<div class="brands-tabs">
+			<div class="product-items">
 				<div class="col-sm-6 details">
 					<div class="col-sm-12">
 						<div class="col-sm-6"><!-- Product Details 1 -->
-						<h4>Long Life Milk</h4>
-						<p>Available sizes<br>
-						1l<br>
-						</p>	
+						<h4>Chocolate Swiss Roll</h4>
+						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
 						</div><!-- /Product Details 1 -->
 						<div class="col-sm-6"><!-- Product Image 1 -->
 							<div>
@@ -80,11 +97,8 @@
 				<div class="col-sm-6 details">
 					<div class="col-sm-12">
 						<div class="col-sm-6 "><!-- Product Details 2 -->
-						<h4>Long Life Milk (Lactofree)</h4>
-						<p>Available sizes<br>
-						1l<br>
-						</p>
-							
+						<h4>Vanilla Swiss Roll</h4>
+						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
 						</div><!-- /Product Details 2 -->
 						<div class="col-sm-6"><!-- Product Image 2 -->
 							<div>
@@ -96,14 +110,12 @@
 			</div>
 		</div>
 		<div class="col-sm-12">
-			<div class="brands-tabs">
+			<div class="product-items">
 				<div class="col-sm-6 details">
 					<div class="col-sm-12">
 						<div class="col-sm-6"><!-- Product Details 1 -->
-						<h4>Flavored Long Life Milk (Maher the Adventurer)</h4>
-						<p>Available sizes<br>
-						125ml<br>
-						</p>	
+						<h4>Cappuccino Swiss Roll</h4>
+						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
 						</div><!-- /Product Details 1 -->
 						<div class="col-sm-6"><!-- Product Image 1 -->
 						  <div class="carousel slide" id="product1">
@@ -133,10 +145,7 @@
 					<div class="col-sm-12">
 						<div class="col-sm-6 "><!-- Product Details 2 -->
 						<h4>Flavored Long Life Milk (NIjoom)</h4>
-						<p>Available sizes<br>
-						150ml<br>
-						</p>
-							
+						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
 						</div><!-- /Product Details 2 -->
 						<div class="col-sm-6"><!-- Product Image 2 -->
 							<div>

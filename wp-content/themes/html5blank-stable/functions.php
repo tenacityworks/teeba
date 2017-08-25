@@ -566,7 +566,7 @@ function ___product_items() {
     'menu_icon'     => 'dashicons-info',
     'taxonomies' => array('category', 'post_tag'),
     'menu_position' => 5,
-    'supports'      => array( 'title', 'excerpt' ),
+    'supports'      => array( 'title', 'editor', 'excerpt' ),
     'has_archive'   => true,
   );
   register_post_type( 'product_items', $args ); 

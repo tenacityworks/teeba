@@ -58,6 +58,14 @@ h6 {
 	font-family: 'barmenoroman';
 
 }
+
+.slider-overlay{
+	margin-top: -25px;
+	text-align: center;
+	background: darkgrey;
+    color: #000;
+}
+
 h3 {
 	background-color: #002D55;
 	height: 45px;
@@ -90,7 +98,7 @@ h3 {
 .about-teeba{
 	background-color: #F5F5F5;
 	padding-left: 9px;
-	margin-left: -15px;
+	margin-left: -42px;
 }
 
 .our-vision{
@@ -869,7 +877,7 @@ textarea {
 		padding: 85px 0;
 	}
 	.spacetop-pages {
-		padding: 60px 0;
+		padding: 70px 0;
 	}
 	._socialleft {
 	  background-color: #D3D3D3;
@@ -1904,7 +1912,7 @@ font-size: 40px;
 .bcpos{
 	position: absolute;
     bottom: -1px;
-    padding-left: 230px;
+    padding-left: 235px;
     background:#3F99EB;
     width: 100%;
 }

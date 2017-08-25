@@ -15,9 +15,11 @@
 					</p>
 				</div>	
 			</div>
+			<?php $map = @get_field("map_area");?>
 			<div class="col-sm-7">
 				<div class="contact-map">
 					<h3>Visit Us</h3>
+					<?php echo $map; ?> 
 				</div>
 			</div>
 

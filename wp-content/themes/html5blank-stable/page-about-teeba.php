@@ -3,7 +3,7 @@
 		<!-- ================ -->
 		<div class="spacetop-pages"></div>
 		<div class="container">
-			<h2 id="about">About Teeba</h2>		
+			<h2 style="margin-left: -15px; margin-bottom: 40px;" id="about">About Teeba</h2>		
 			<div class="col-sm-8">
 				<div class="about-teeba">
 				<h3>Our Vision</h3>
@@ -29,9 +29,11 @@
 					</p>
 				</div>	
 			</div>
+				<?php $map = @get_field("map_area");?>
 			<div class="col-sm-4">
 				<div class="join-us">
 					<h3>Visit Us</h3>
+					<?php echo $map; ?> 
 				</div>
 			</div>
 
