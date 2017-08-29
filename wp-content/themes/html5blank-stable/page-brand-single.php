@@ -23,11 +23,11 @@ $products             = new WP_Query($_args);?>
 		<!-- section start -->
 		<!-- ================ -->
 	<div class="spacetop-pages"></div>
-	<div class="row"><h2 style="margin-left: 26px;">7 Days</h2></div>
-	<div class="container">
-	<h3 style="width: 905px;margin-left: 15px;">7 Days Coissants</h3>
+	<div class="row"><h2>7 Days</h2></div>
+	<div style="padding-left: 1px;" class="container">
+	<h3 style="width: 948px;margin-left: -14px;">7 Days Coissants</h3>
 
-	<div class="col-sm-12">
+	<div style="margin-left: -29px;" class="container">
 
 		<?php while ($products->have_posts()) : $products->the_post(); ?>
 			<div class="product-items">
@@ -46,7 +46,7 @@ $products             = new WP_Query($_args);?>
 						    		$item_count = count($items); 
 						    		foreach ($items as $key => $item) {						    		
 						    ?>
-						      <div class="item <?php if($key == 0){?>active<?php } ?>">
+						      <div style="text-align: -webkit-center;" class="item <?php if($key == 0){?>active<?php } ?>">
 						        <div class="row">
 						          <div class="products-carousel">
 						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="<?php echo $item['product_image']; ?>"></a>
