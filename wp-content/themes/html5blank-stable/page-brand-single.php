@@ -2,7 +2,7 @@
 
 <?php get_header();
 
-	$cat = "7-days-products";
+	$cat = "7-days-croissants";
 
 	$_args = array(
     'post_status'       => 'publish',
@@ -23,139 +23,55 @@ $products             = new WP_Query($_args);?>
 		<!-- section start -->
 		<!-- ================ -->
 	<div class="spacetop-pages"></div>
+	<div class="row"><h2 style="margin-left: 26px;">7 Days</h2></div>
 	<div class="container">
-	<h3 style="width: 935px;">Swiss Roll</h3>
-		<div class="col-sm-12">
+	<h3 style="width: 905px;margin-left: 15px;">7 Days Coissants</h3>
+
+	<div class="col-sm-12">
+
+		<?php while ($products->have_posts()) : $products->the_post(); ?>
 			<div class="product-items">
-				<div class="col-sm-6 details">
+				<div class="details">
 					<div class="col-sm-12">
 						<div class="col-sm-6"><!-- Product Details 1 -->
-						<h4>Fresh Milk</h4>
-						<p>Available sizes<br>
-						1l<br>
-						180ml
-						</p>
-							
+						<h4><?php the_title(); ?></h4>
+						<p><?php the_content(); ?></p>	
 						</div><!-- /Product Details 1 -->
 						<div class="col-sm-6"><!-- Product Image 1 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png">
-							</div>
-						</div><!-- /Product Image 1 -->
-					</div>
-				</div>
-				<div class="col-sm-6 details">
-					<div class="col-sm-12">
-						<div class="col-sm-6"><!-- Product Details 2 -->
-						<h4>Strawberry Swiss Roll</h4>
-						<p>Available sizes<br>
-						2l<br>
-						950ml
-						</p>							
-						</div><!-- /Product Details 2 -->
-						<div class="col-sm-6"><!-- Product Image 2 -->
-						  <div class="carousel slide" id="product2">
+						<?php  $id = strtolower(str_replace(' ', '-', get_the_title())); ?>
+						  <div class="carousel slide" id="<?php echo $id; ?>">
 						    <div class="carousel-inner sliderheight">
-						      <div class="item  active">
+
+						    <?php 	$items = @get_field("product");
+						    		$item_count = count($items); 
+						    		foreach ($items as $key => $item) {						    		
+						    ?>
+						      <div class="item <?php if($key == 0){?>active<?php } ?>">
 						        <div class="row">
 						          <div class="products-carousel">
-						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png"></a>
-						          </div>                     
+						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="<?php echo $item['product_image']; ?>"></a>
+						          </div> 
+						          <div class="image-desc"><?php echo $item['flavour_name']; ?></div>                    
 						        </div>
+
 						      </div>
-						      <div class="item">
-						        <div class="row">
-						          <div class="products-carousel">
-						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png"></a>
-						          </div>                     
-						        </div>
-						      </div>
+						      <?php } ?>
 						    </div>
-						    <a data-slide="prev" href="#product2" class="aleft-products"><i class="fa fa-angle-left faSize-products" aria-hidden="true"></i></a>
-						    <a data-slide="next" href="#product2" class="aright-products"><i class="fa fa-angle-right faSize-products" aria-hidden="true"></i></a>
-						  </div>                          
-						</div><!-- /Product Image 2 -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-12">
-			<div class="product-items">
-				<div class="col-sm-6 details">
-					<div class="col-sm-12">
-						<div class="col-sm-6"><!-- Product Details 1 -->
-						<h4>Chocolate Swiss Roll</h4>
-						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
-						</div><!-- /Product Details 1 -->
-						<div class="col-sm-6"><!-- Product Image 1 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png">
-							</div>
-						</div><!-- /Product Image 1 -->
-					</div>
-				</div>
-				<div class="col-sm-6 details">
-					<div class="col-sm-12">
-						<div class="col-sm-6 "><!-- Product Details 2 -->
-						<h4>Vanilla Swiss Roll</h4>
-						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
-						</div><!-- /Product Details 2 -->
-						<div class="col-sm-6"><!-- Product Image 2 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png">
-							</div>
-						</div><!-- /Product Image 2 -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-12">
-			<div class="product-items">
-				<div class="col-sm-6 details">
-					<div class="col-sm-12">
-						<div class="col-sm-6"><!-- Product Details 1 -->
-						<h4>Cappuccino Swiss Roll</h4>
-						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
-						</div><!-- /Product Details 1 -->
-						<div class="col-sm-6"><!-- Product Image 1 -->
-						  <div class="carousel slide" id="product1">
-						    <div class="carousel-inner sliderheight">
-						      <div class="item  active">
-						        <div class="row">
-						          <div class="products-carousel">
-						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7Days_CHOCOLATE.png"></a>
-						          </div>                     
-						        </div>
-						      </div>
-						      <div class="item">
-						        <div class="row">
-						          <div class="products-carousel">
-						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png"></a>
-						          </div>                     
-						        </div>
-						      </div>
-						    </div>
-						    <a data-slide="prev" href="#product1" class="aleft-products"><i class="fa fa-angle-left faSize-products" aria-hidden="true"></i></a>
-						    <a data-slide="next" href="#product1" class="aright-products"><i class="fa fa-angle-right faSize-products" aria-hidden="true"></i></a>
+						    <?php if ($item_count > 1 ) { ?>
+						    <a data-slide="prev" href="#<?php echo $id; ?>" class="aleft-products"><i class="fa fa-angle-left faSize-products" aria-hidden="true"></i></a>
+						    <a data-slide="next" href="#<?php echo $id; ?>" class="aright-products"><i class="fa fa-angle-right faSize-products" aria-hidden="true"></i></a>
+						    <?php } ?>
 						  </div>                          
 						</div><!-- /Product Image 1 -->
 					</div>
 				</div>
-				<div class="col-sm-6 details">
-					<div class="col-sm-12">
-						<div class="col-sm-6 "><!-- Product Details 2 -->
-						<h4>Flavored Long Life Milk (NIjoom)</h4>
-						<p>Energy 66 Kcal Protein 1g Carbohydrate 11g of which sugar 8g. Total fat 2g of which saturated fat 0.5g. Cholesterol 0mg, Fibers 0g Sodium 28mg</p>	
-						</div><!-- /Product Details 2 -->
-						<div class="col-sm-6"><!-- Product Image 2 -->
-							<div>
-								<img style="width: 100%; height: auto;" src="/wp-content/uploads/2017/08/7days_TOFFEE-CROISSANT.png">
-							</div>
-						</div><!-- /Product Image 2 -->
-					</div>
-				</div>
 			</div>
+		<?php endwhile; wp_reset_query(); ?>
+
+
+
 		</div>
+
 	</div>
 		
 		<!-- section end -->	

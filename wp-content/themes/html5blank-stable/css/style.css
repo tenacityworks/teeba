@@ -211,7 +211,7 @@ li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-men
 }
 .contact-map{
 	width: 650px;
-	height: 529px; 
+	height: 445px; 
 	background-color: #fff;
 }
 /* Menu styles end */
@@ -1866,11 +1866,13 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 	margin-bottom: 25px;
 }
 .product-items{
-	margin-left: -15px;
+/*	margin-left: -15px;*/
 	background: #FFF;
 	display: inline-block;
 	margin-bottom: -6px;
-	border: 1px solid #d3d3d3;
+    width: 453px;
+    margin-right: -5px;
+/*	border: 1px solid #d3d3d3;*/
 }
 
 .brands-tabs-text{
@@ -1891,9 +1893,12 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 
 .product-items div.details{
 	background: #fff;
-    display: inline-block
-    border-right: 1px solid #d3d3d3;
+    display: inline-block;
+    position: relative;
+    float: left;
+/*    width: 473px;*/
 }
+.details{ border: 1px solid #d3d3d3;}
 
 .details col-sm-6{
     border-right: 1px solid #d3d3d3;
@@ -1915,6 +1920,15 @@ font-size: 40px;
     padding-left: 235px;
     background:#3F99EB;
     width: 100%;
+}
+
+.image-desc{
+	text-align: center;
+	background: #d3d3d3;
+	color: #000;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -18px;
 }
 
 
