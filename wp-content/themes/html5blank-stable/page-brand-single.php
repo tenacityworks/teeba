@@ -2,7 +2,9 @@
 
 <?php get_header();
 
-	$cat = "7-days-croissants";
+$title 					= @get_field("page_title");
+$cat  					= @get_field("page_category");
+$cat_slug 				= @get_field("category_slug");
 
 	$_args = array(
     'post_status'       => 'publish',
@@ -14,18 +16,18 @@
     array(
         'taxonomy'      => 'category',
         'field'         => 'slug',
-        'terms'         => $cat
+        'terms'         => $cat_slug
     )),
 ); 
 
-$products             = new WP_Query($_args);?>
+$products             	= new WP_Query($_args);?>
 
 		<!-- section start -->
 		<!-- ================ -->
 	<div class="spacetop-pages"></div>
-	<div class="row"><h2>7 Days</h2></div>
+	<div class="row"><h2><?php echo $title;?></h2></div>
 	<div style="padding-left: 1px;" class="container">
-	<h3 style="width: 948px;margin-left: -14px;">7 Days Coissants</h3>
+	<h3 style="width: 948px;margin-left: -14px;"><?php echo $cat;?></h3>
 
 	<div style="margin-left: -29px;" class="container">
 

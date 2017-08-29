@@ -46,7 +46,7 @@
 	<?php while ($products->have_posts()) : $products->the_post(); ?>	
 	<div class="col-sm-12">
 		<div class="brands-tabs">
-		<a href=""><h3><?php the_title(); ?></h3>
+		<a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3>
 			<div class="col-sm-9 brands-tabs-text">
 				<?php the_content(); ?>
 				<div class="brands-more-dets"><button name="cv" type="submit">View Products</button></div>
