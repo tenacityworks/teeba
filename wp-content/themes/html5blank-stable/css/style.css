@@ -189,7 +189,7 @@ body.fixed-header-on > div.container > header > div > div > div.col-md-9 > div >
 /* Menu styles start*/
 #mega-menu-wrap-header-menu, #mega-menu-wrap-header-menu #mega-menu-header-menu, 
 #mega-menu-wrap-header-menu #mega-menu-header-menu ul.mega-sub-menu, #mega-menu-wrap-header-menu #mega-menu-header-menu 
-li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-menu-link{background: transparent !important; font-size: 20px !important; font-family: 'barmenoroman' !important;}
+li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-menu-link{/*background: transparent !important;*/ font-size: 20px !important; font-family: 'barmenoroman' !important;}
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{background: #3F99EB !important; color:#fff !important;}
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link:hover{background: #00529C !important; color:#fff !important;}
 #mega-menu-wrap-header-menu{padding-top: 27px !important;}
@@ -688,7 +688,7 @@ textarea {
 	margin-bottom: 0;
 }
 .main-navigation .navbar-default {
-	background-color: transparent;
+	/*background-color: transparent;*/
 	border: none;
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
@@ -699,7 +699,7 @@ textarea {
 	font-family: 'barmenoroman';
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
-	background-color: transparent;
+/*	background-color: transparent;*/
 	color: #55acee;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
@@ -961,12 +961,16 @@ textarea {
 	.active > div:first-child + div { display:block; }
 	
 }
+
 @media (max-width:991px) {
 	#mega-menu-wrap-header-menu .mega-menu-toggle {
 	    display: block !important;
 	}
 	#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item{
 		float: right;
+	}
+	#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link{
+		background:#3F99EB !important;
 	}
 
 	.positionswitch {
@@ -975,6 +979,7 @@ textarea {
 	}
 
 }
+
 @media (max-width:767px) {
 
 	.brand-main{
@@ -1250,13 +1255,7 @@ textarea {
 		display: block;
 	}
 }
-@media (max-width:991px) {
-	.fixed-header-on .logo,
-	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
-		display: none;
-	}
-}
+
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
