@@ -25,11 +25,10 @@ $products             	= new WP_Query($_args);?>
 		<!-- section start -->
 		<!-- ================ -->
 	<div class="spacetop-pages"></div>
-	<div class="row"><h2><?php echo $title;?></h2></div>
-	<div style="padding-left: 1px;" class="container">
-	<h3 style="width: 948px;margin-left: -14px;"><?php echo $cat;?></h3>
+	<div class="row"><h2><?php echo $title;?></h2></div>	
 
 	<div style="margin-left: -29px;" class="container">
+	<h3 class="h3-single"><?php echo $cat;?></h3>
 
 		<?php while ($products->have_posts()) : $products->the_post(); ?>
 			<div class="product-items">
@@ -43,19 +42,17 @@ $products             	= new WP_Query($_args);?>
 						<?php  $id = strtolower(str_replace(' ', '-', get_the_title())); ?>
 						  <div class="carousel slide" id="<?php echo $id; ?>">
 						    <div class="carousel-inner sliderheight">
-
 						    <?php 	$items = @get_field("product");
 						    		$item_count = count($items); 
 						    		foreach ($items as $key => $item) {						    		
 						    ?>
-						      <div style="text-align: -webkit-center;" class="item <?php if($key == 0){?>active<?php } ?>">
+						      <div class="item <?php if($key == 0){?>active<?php } ?>">
 						        <div class="row">
 						          <div class="products-carousel">
 						            <a href="#"><img style="width: 100%; height: auto;" alt="" src="<?php echo $item['product_image']; ?>"></a>
 						          </div> 
 						          <div class="image-desc"><?php echo $item['flavour_name']; ?></div>                    
 						        </div>
-
 						      </div>
 						      <?php } ?>
 						    </div>
@@ -74,7 +71,7 @@ $products             	= new WP_Query($_args);?>
 
 		</div>
 
-	</div>
+
 		
 		<!-- section end -->	
 

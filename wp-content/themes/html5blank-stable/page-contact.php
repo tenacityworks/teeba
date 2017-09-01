@@ -3,6 +3,7 @@
 		<!-- ================ -->
 		<div class="spacetop-pages"></div>
 		<div class="container">
+		<div class="col-sm-12">
 			<h2 id="about">Contact</h2>		
 			<div class="col-sm-5 ">
 				<div class="our-vision">
@@ -22,6 +23,7 @@
 					<?php echo $map; ?> 
 				</div>
 			</div>
+		</div>
 
 		</div>
 		

@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 	<main role="main">
+		<div class="spacetop-search"></div>
 		<!-- section -->
 		<section>
 

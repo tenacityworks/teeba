@@ -49,14 +49,18 @@
 							<nav class="nav " role="navigation">
 								<?php html5blank_nav(); ?>
 							</nav>
-							<?php get_search_form(); ?>
+							<!-- <?php //get_search_form(); ?> -->
 							<!-- /nav -->
 					<!-- 	<form id="search" action="#" method="post">
 							<div id="label"><label for="search-terms" id="search-label">search</label></div>
 							<div id="input"><input type="text" name="search-terms" id="search-terms" placeholder="Enter search terms..."></div>
 						</form> -->
 						</div>
+						<a href="#" id="searchtoggl"><i class="fa fa-search fa-lg"></i></a>
 					</div>
+				<div id="searchbar" class="clearfix">
+					<?php get_search_form(); ?>
+				</div>
 				</div>
 			</div>
 			<div class="breadcrumbs bcpos" typeof="BreadcrumbList" vocab="http://schema.org/">
@@ -66,4 +70,5 @@
 				}?>
 			</div>
 		</header>
+
 		<!-- /header -->

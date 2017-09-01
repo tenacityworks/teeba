@@ -20,36 +20,57 @@
 		</footer>
 		<!-- footer end -->
 		<?php wp_footer(); ?>
-		<script type="text/javascript">
+	<script type="text/javascript">
 (function(window){
 
-	// get vars
-	var searchEl = document.querySelector("#input");
-	var labelEl = document.querySelector("#label");
+	// // get vars
+	// var searchEl = document.querySelector("#input");
+	// var labelEl = document.querySelector("#label");
 
-	// register clicks and toggle classes
-	labelEl.addEventListener("click",function(){
-		if (classie.has(searchEl,"focus")) {
-			classie.remove(searchEl,"focus");
-			classie.remove(labelEl,"active");
-		} else {
-			classie.add(searchEl,"focus");
-			classie.add(labelEl,"active");
-		}
-	});
+	// // register clicks and toggle classes
+	// labelEl.addEventListener("click",function(){
+	// 	if (classie.has(searchEl,"focus")) {
+	// 		classie.remove(searchEl,"focus");
+	// 		classie.remove(labelEl,"active");
+	// 	} else {
+	// 		classie.add(searchEl,"focus");
+	// 		classie.add(labelEl,"active");
+	// 	}
+	// });
 
-	// register clicks outisde search box, and toggle correct classes
-	document.addEventListener("click",function(e){
-		var clickedID = e.target.id;
-		if (clickedID != "search-terms" && clickedID != "search-label") {
-			if (classie.has(searchEl,"focus")) {
-				classie.remove(searchEl,"focus");
-				classie.remove(labelEl,"active");
-			}
-		}
-	});
+	// // register clicks outisde search box, and toggle correct classes
+	// document.addEventListener("click",function(e){
+	// 	var clickedID = e.target.id;
+	// 	if (clickedID != "search-terms" && clickedID != "search-label") {
+	// 		if (classie.has(searchEl,"focus")) {
+	// 			classie.remove(searchEl,"focus");
+	// 			classie.remove(labelEl,"active");
+	// 		}
+	// 	}
+	// });
+  var $searchlink = $('#searchtoggl i');
+  var $searchbar  = $('#searchbar');
+  
+  $('#searchtoggl').on('click', function(e){
+    e.preventDefault();
+    
+    if($(this).attr('id') == 'searchtoggl') {
+      if(!$searchbar.is(":visible")) { 
+        // if invisible we switch the icon to appear collapsable
+        $searchlink.removeClass('fa-search').addClass('fa-search-minus');
+      } else {
+        // if visible we switch the icon to appear as a toggle
+        $searchlink.removeClass('fa-search-minus').addClass('fa-search');
+      }
+      
+      $searchbar.slideToggle(300, function(){
+        // callback after search bar animation
+      });
+    }
+  });
 }(window));
-		</script>
+</script>
+
 	
 	</body>
 </html>

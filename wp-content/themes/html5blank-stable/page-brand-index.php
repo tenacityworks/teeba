@@ -14,7 +14,7 @@
 				<?php the_content(); ?>
 			</div>
 			<div class="col-sm-3">
-				<div>
+				<div class="brand-main">
 					<?php the_post_thumbnail(); ?>
 				</div>
 			</div>

@@ -118,6 +118,9 @@ input:focus {
 	width: 335px;
 	height: 300px
 }
+.overlay{
+	margin-top: -40px;
+}
 
 /*------------------------------------*\
     PAGES
