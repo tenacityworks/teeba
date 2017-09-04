@@ -881,14 +881,14 @@ textarea {
 		padding: 70px 0;
 	}
 	._socialleft {
-	  background-color: #D3D3D3;
+	  background-color: #fff;
 	  min-height: 365px;
 	  width: 480px;
 	  margin-right: 5px;
 	  margin-top: 10px;
 	}
 	._socialright {
-	  background-color: #D3D3D3;
+	  background-color: #fff;
 	  min-height: 365px;
 	  width: 480px;
 	  margin-left: 5px;
@@ -2027,6 +2027,18 @@ font-size: 40px;
 
 .spacetop-search {
 	padding: 65px 0;
+}
+
+#fbtw-advanced-facebook-widget{
+	margin-top: 40px !important;
+}
+
+.fts-jal-fb-group-header-desc{
+	display: none !important;
+}
+
+.fts-instagram-scrollable .feed_dynamic_classo_userinstagram{
+	margin-top: 39px !important;
 }
 
 
