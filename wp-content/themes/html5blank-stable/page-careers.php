@@ -31,7 +31,12 @@
 			</div>
 
 		</div>
-		
+		<script type="text/javascript">
+			document.getElementById("file-upload").onchange = function() {
+			  var filedetails = document.getElementById("filename");
+			  filedetails.innerHTML = this.value.replace(/\\/g,'/').replace(/.*\//, '');
+			};
+		</script>		
 		<!-- section end -->	
 
 <?php get_footer(); ?>
