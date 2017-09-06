@@ -58,9 +58,6 @@
 						</div>
 						<a href="#" id="searchtoggl"><i class="fa fa-search fa-lg"></i></a>
 					</div>
-				<div id="searchbar" class="clearfix">
-					<?php get_search_form(); ?>
-				</div>
 				</div>
 			</div>
 			<div class="row">
@@ -73,6 +70,9 @@
 						?>
 					</div>
 				</div>
+				<div id="searchbar" class="clearfix">
+						<?php get_search_form(); ?>
+					</div>
 			</div>
 		</header>
 
