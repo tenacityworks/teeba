@@ -204,9 +204,6 @@ li.mega-menu-item, #mega-menu-wrap-header-menu #mega-menu-header-menu a.mega-men
 	transform: scale(0.9);
 }
 
-#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu{
-	    padding: 10px 0px 0px 0px !important;
-}
 .fixed-header-on #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-flyout ul.mega-sub-menu{
 	    top: 24px;
 	    transform: scale(0.9);
@@ -2070,7 +2067,9 @@ font-size: 40px;
 	margin-top: 39px !important;
 }
 
-h3V/8e:uJp
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link{
+	margin-bottom: 10px !important;
+}
 
 
 
