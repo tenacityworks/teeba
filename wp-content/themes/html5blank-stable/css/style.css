@@ -986,6 +986,9 @@ textarea {
 }
 
 @media (max-width:767px) {
+	.bcpos {
+    	padding-left: 22px !important;
+	}
 
 	.brand-main{
 		width: 60%;
@@ -1004,6 +1007,12 @@ textarea {
     	margin-top: -18px !important;
 	}
 
+}
+
+@media (min-width:767px) and (max-width:999px){
+	.bcpos{
+	    padding-left: 45px !important;
+	}
 }
 
 @media (min-width:375px) and (max-width:767px) {

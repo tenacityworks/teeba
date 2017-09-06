@@ -18,11 +18,9 @@
 
 						?>
 					</div>
-					<div class="col-sm-6 _socialright" style="padding-top: 40px;">
-					<h3 class="h3social" style="margin-top: -40px;">Teeba on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
-						<?php echo $inst;
-						// do_shortcode('[twitter-timeline user_name="TwitterDev" min_width="480" height="365" follow_button="true" data_show_count="true" data_show_screen_name="true" data_size="large" data_link_color="#365899"]'); 
-						?>
+					<div class="col-sm-6 _socialright">
+					<h3 class="h3social">Teeba on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
+						<iframe src="http://instaembedder.com/gallery-v2.php?width=440&cols=1&rows=5&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=white&cid=5677&" style="margin-top:34px;" scrolling='yes' frameborder="0" width="100%" height="365" ></iframe>
 					</div>
 				</div>
 			<!-- /Teeba Social -->
@@ -35,13 +33,9 @@
 							<p>Lorem Ipsum adalah text contoh digunakan didalam industri pencetakan dan typesetting.</p> 
 						</div>	 -->
 					</div>
-				<div class="col-sm-6 _socialright" style="padding-top: 40px;">
-					<h3 class="h3social" style="margin-top: -40px;">Teeba on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
-					<?php echo $inst; ?>
-
-<!-- 						<div class="overlaysocial">
-							<p>sebuah galeri cetak dan merobakanya menjadi satu buku spesimen. Ia telah bertahan bukan hanya selama lima kurun, tetapi</p>
-						</div> -->
+				<div class="col-sm-6 _socialright">
+					<h3 class="h3social">Teeba on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
+						<iframe src="http://instaembedder.com/gallery-v2.php?width=440&cols=1&rows=5&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=white&cid=5677&" style="margin-top:34px;" scrolling='yes' frameborder="0" width="100%" height="365" ></iframe>
 					</div>
 				</div>
 			<!-- /Teeba Social -->
@@ -53,13 +47,9 @@
 							<p>Lorem Ipsum adalah text contoh digunakan didalam industri pencetakan dan typesetting.</p> 
 						</div>	 -->
 					</div>
-				<div class="col-sm-6 _socialright" style="padding-top: 40px;">
-					<h3 class="h3social" style="margin-top: -40px;">Almarai on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
-					<?php echo $inst; ?>
-
-<!-- 						<div class="overlaysocial">
-							<p>sebuah galeri cetak dan merobakanya menjadi satu buku spesimen. Ia telah bertahan bukan hanya selama lima kurun, tetapi</p>
-						</div> -->
+				<div class="col-sm-6 _socialright">
+					<h3 class="h3social">Almarai on Instagram</h3><i class="fa fa-instagram fasocialpos"></i>
+						<iframe src="http://instaembedder.com/gallery-v2.php?width=440&cols=1&rows=5&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=white&cid=5677&" style="margin-top:34px;" scrolling='yes' frameborder="0" width="100%" height="365" ></iframe>
 					</div>
 				</div>
 				<!-- 	</div> -->

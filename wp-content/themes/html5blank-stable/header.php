@@ -63,11 +63,16 @@
 				</div>
 				</div>
 			</div>
-			<div class="breadcrumbs bcpos" typeof="BreadcrumbList" vocab="http://schema.org/">
-				<?php if(function_exists('bcn_display'))
-				{
-				bcn_display();
-				}?>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="breadcrumbs bcpos" typeof="BreadcrumbList" vocab="http://schema.org/">
+						<?php
+						 if(function_exists('bcn_display')):
+							bcn_display();
+						endif;
+						?>
+					</div>
+				</div>
 			</div>
 		</header>
 
