@@ -82,6 +82,10 @@ h3 {
 	border: 1px solid #808080 !important;
 }
 
+.faq p{
+	padding: 15px;
+}
+
 .join-us{
 	width:320px;
 	height:350px;
@@ -103,6 +107,7 @@ h3 {
 
 .about-teeba{
 	background-color: #F5F5F5;
+	margin-bottom: 10px;
 	padding-left: 9px;
 	margin-left: -42px;
 	border: 1px solid #808080;
@@ -2081,6 +2086,8 @@ font-size: 40px;
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link{
 	margin-bottom: 10px !important;
 }
+
+
 
 
 
