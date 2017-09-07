@@ -805,7 +805,7 @@ textarea {
 	    margin-right: 6px;
 	}
 	.h3social{
-		width: 480px; 
+		width: 479px; 
 		right: 0; 
 		position: absolute; 
 		margin: auto;
@@ -888,6 +888,7 @@ textarea {
 	  width: 480px;
 	  margin-right: 5px;
 	  margin-top: 10px;
+	  border: 1px solid #808080 !important;
 	}
 	._socialright {
 	  background-color: #fff;
@@ -895,6 +896,7 @@ textarea {
 	  width: 480px;
 	  margin-left: 5px;
 	  margin-top: 10px;
+	  border: 1px solid #808080 !important;
 	}
 	.slider_fp {
 	  height: 110px;
