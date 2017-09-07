@@ -74,21 +74,27 @@ h3 {
 	padding-bottom: 5px;
 
 }
+
 .faq{
 	margin-left: -15px;
 	background: #F5F5F5;
+	margin-bottom: 15px;
+	border: 1px solid #808080 !important;
 }
+
 .join-us{
 	width:320px;
 	height:350px;
 	background: #fff;
 }
+
 .why-teeba h3{
 	background-color: transparent;
 	color: #00529C;
 	padding-left: 0;
 	margin-left: -15px;
 }
+
 .about-teeba h3{
 	background-color: transparent;
 	color: #00529C;
@@ -99,6 +105,7 @@ h3 {
 	background-color: #F5F5F5;
 	padding-left: 9px;
 	margin-left: -42px;
+	border: 1px solid #808080;
 }
 
 .our-vision{
@@ -1912,7 +1919,9 @@ body > div.container > div.container > div.col-sm-4 > div > p{
 	background: #F5F5F5;
 	display: inline-block;
 	margin-bottom: 25px;
+	border: 1px solid #808080 !important;
 }
+
 .product-items{
 /*	margin-left: -15px;*/
 	background: #FFF;
